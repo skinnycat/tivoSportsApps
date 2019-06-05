@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Created by Neil Cooper OCT 2015 -->
+    <title>sports application</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/codelibA.css" />
+
+    <link rel="stylesheet" href="style.min.css">
+
+</head>
+
+<body>
+    <div class="preload-images">
+        <img src="../assets/imenubutton.png" width="1" height="1" />
+        <img src="../assets/imenubox.png" width="1" height="1" />
+    </div>
+    <!-- All the required JS files -->
+    <script src="../common/codelibA.js"></script>
+    <script src="../common/common.js"></script>
+    <script src="app6.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            version = "1.0.0";
+
+            var SPLASH_URL = "splash.jpg";
+
+            /*
+              These objects are where all the data is stored
+              and dealt with 
+            */
+            helpModel = new HelpModel(); //Help popup data
+            iMenuModel = new ImenuModel(); //iMenu Data
+            alertsModel = new AlertsModel(); //Alerts Data
+            videoMenuModel = new VideoMenuModel(); //Video Menu data
+            tickerModel = new TickerModel(); //News Ticker data
+            rtuModel = new RtuModel(); //Real Time updates data
+            configModel = new ConfigModel(); //Initial configuration data
+            href = new Href(); //Link data
+            sportsAppModel = new SportsAppModel();
+            channelManagerModel = new ChannelManagerModel();
+            drawStatsModel = new DrawStatsModel(); //only required for tennis
+            genStatsModel = new GenStatsModel();
+
+            splashLoader = new SplashLoader(SPLASH_URL);
+
+            //Check for test=1 in the url querystring and don't show the splash if true
+            var urlQuery = new QueryString();
+            urlQuery.test === "1" ? console.log("TEST MODE") : splashLoader.show();
+            //store the channelID
+            console.log("channelID: " + urlQuery.channelID);
+            channelManagerModel.setChannelID(urlQuery.channelID);
+            console.log("channelID: " + channelManagerModel.getChannelID());
+            //The channel manager deals with the tuning of video and audio
+            channelManager = new ChannelManager();
+            channelManager.init();
+        };
+
+        function loadModules() {
+
+            sportsApp = new SportsApp();
+
+        }
+    </script>
+    <div id="loadingAnim"></div>
+</body>
+
+</html>

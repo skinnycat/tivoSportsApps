@@ -1,0 +1,264 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+header.top {
+    position: fixed;
+    z-index: 600;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 0 20px 0 0;
+}
+
+@media (max-width: 62em) {
+    header.top {
+        height: 40px;
+    }
+}
+
+@media (max-width: 48.75em) {
+    header.top {
+        height: 10px;
+    }
+}
+
+#title.title {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 80px;
+    fill: white;
+    background: url(images/tivotitle-screen.png);
+}
+
+@media (max-width: 62em) {
+    #title.title {
+        width: 250px;
+        height: 40px;
+        background: url(images/tivotitle-tablet.png);
+    }
+}
+
+@media (max-width: 48.75em) {
+    #title.title {
+        display: none;
+    }
+}
+
+.page-wrap {
+    margin: 200px 5% 100px 5%;
+    max-width: 1500px;
+}
+
+.page-wrap,
+.input-wrap {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media (max-width: 62em) {
+    .page-wrap {
+        margin: 50px 4% 100px 3%;
+    }
+}
+
+@media (max-width: 48.75em) {
+    .page-wrap {
+        margin: 20px 2% 100px 2%;
+    }
+}
+
+#section-column.section-column {
+    width: 30%;
+}
+
+.section-body {
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+#data-column.data-column {
+    width: 60%;
+}
+
+.data-body {
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.section-column,
+.data-column {}
+
+ul {
+    padding: 0;
+}
+
+li {
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+    border: 0;
+    list-style-type: none;
+    line-height: 14pt;
+    vertical-align: middle;
+}
+
+ul li:nth-child(odd) {
+    background: #FBFBFB;
+}
+
+ul li:nth-child(even) {
+    background: white;
+}
+
+ul.dataList {}
+
+li.itemLi {
+    margin-left: 25px
+}
+
+li.sectionListItem {
+    padding: 2px;
+    line-height: 14pt;
+    border-radius: 5px;
+}
+
+li.sectionListItem:hover {
+    cursor: pointer;
+    background-color: #999;
+}
+
+li.dataLi {
+    padding-left: 10px;
+}
+
+#sectionAppSelect {
+    padding: 3px;
+    margin: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color: #888;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 11pt;
+}
+
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+
+label {
+    position: relative
+}
+
+label:after {
+    content: '<>';
+    font: 11px "Consolas", monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 8px;
+    top: 2px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    pointer-events: none;
+}
+
+label:before {
+    content: '';
+    right: 6px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    background: #f8f8f8;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.channelName {
+    font-weight: bold;
+}
+
+.channelLink {
+    color: cornflowerblue;
+}
+
+.scheduleTitle {
+    font-weight: bold;
+}
+
+.scheduleBody {
+    color: #333333;
+    height: auto;
+    line-height: 10pt;
+}
+
+@media (max-width: 62em) {
+    html {
+        font-size: 14px;
+    }
+    #sectionAppSelect {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 48.75em) {
+    html {
+        font-size: 10px;
+    }
+    #sectionAppSelect {
+        font-size: 10px;
+    }
+}

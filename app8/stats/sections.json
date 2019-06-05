@@ -1,0 +1,34 @@
+{
+    "sections": [
+        {
+            "name": "NEWS",
+            "type": "TAB_NEWS"
+        },
+        {
+            "name": "QUALIFYING",
+            "type": "TAB_QUALIFYING"
+        }, {
+            "name": "TEST",
+            "type": "TAB_SSF"
+        }, {
+            "name": "PRACTICE TIMES",
+            "type": "TAB_PRACTICE"
+        }, {
+            "name": "DRIVERS' STANDINGS",
+            "type": "TAB_DRIVERSTANDINGS"
+        }, {
+            "name": "CONSTRUCTORS' STANDINGS",
+            "type": "TAB_CONSTRUCTORSTANDINGS"
+        }, {
+            "name": "HISTORY",
+            "type": "TAB_HISTORY"
+        }, {
+            "name": "TEST2",
+            "type": "TAB_TESTING123"
+        },
+        {
+            "name": "HELP",
+            "type": "TAB_HELP"
+        }
+]
+}

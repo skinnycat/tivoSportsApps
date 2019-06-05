@@ -1,0 +1,27 @@
+{
+"title" : "RACE RESULTS",
+"ds" : [
+	{"rank": "1","name": "S Vettel","team": "FER","pts": "25"},
+	{"rank": "2","name": "D Ricciardo","team": "RBR","pts": "18"},
+	{"rank": "3","name": "K Raikkonen","team": "FER","pts": "15"},
+	{"rank": "4","name": "N Rosberg","team": "MER","pts": "12"},
+	{"rank": "5","name": "V Bottas","team": "WIL","pts": "10"},
+	{"rank": "6","name": "D Kvyat","team": "RBR","pts": "8"},
+	{"rank": "7","name": "S Perez","team": "FOR","pts": "6"},
+	{"rank": "8","name": "M Verstappen","team": "TOR","pts": "4"},
+	{"rank": "9","name": "C Sainz","team": "TOR","pts": "2"},
+	{"rank": "10","name": "F Nasr","team": "SAU","pts": "1"},
+	{"rank": "11","name": "M Ericsson","team": "SAU","pts": "0"},
+	{"rank": "12","name": "P Maldonado","team": "LOT","pts": "0"},
+	{"rank": "12","name": "R Merhi","team": "MAR","pts": "0"},
+	{"rank": "13","name": "R Grosjean","team": "LOT","pts": "0"},
+	{"rank": "14","name": "A Rossi","team": "MAR","pts": "0"},
+	{"rank": "15","name": "W Stevens","team": "MAR","pts": "0"},
+	{"rank": "","name": "J Button","team": "MCL","pts": "DNF"},
+	{"rank": "","name": "F Alonso","team": "MCL","pts": "DNF"},
+	{"rank": "18","name": "K Magnussen","team": "MCL","pts": "0"},
+	{"rank": "","name": "L Hamilton","team": "MER","pts": "DNF"},
+	{"rank": "","name": "F Massa","team": "WIL","pts": "DNF"},
+	{"rank": "","name": "N Hulkenberg","team": "FOR","pts": "DNF"}
+]
+}

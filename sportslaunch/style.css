@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    SportsLaunch 
+\*------------------------------------*/
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: skyFontReg;
+    src: url(../common/Sky_Reg.ttf);
+}
+
+body {
+    background-color: #000;
+}
+
+#mainWrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+div#scheduleArea {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    width: 1280px;
+    height: 720px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+
+div#scheduleArea span {
+    position: absolute;
+    top: 145px;
+    left: 200px;
+    width: 900px;
+    height: 320px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14pt;
+    font-family: skyFontReg;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Virgin HTML5 Applications PROD Menu</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            color: black;
+            background-color: wheat;
+            font-family: sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        #mainContainer {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+        }
+        
+        a {
+            text-decoration: none
+        }
+        
+        a:hover {
+            text-decoration: underline
+        }
+        
+        .red {
+            color: red
+        }
+        
+        .yellow {
+            color: yellow
+        }
+        
+        .blue {
+            color: blue
+        }
+        
+        .green {
+            color: green
+        }
+    </style>
+
+</head>
+
+<body onload="onloading()">
+
+    <script language="JavaScript">
+        function onloading() {
+            document.onkeydown = function (event) {
+                /*
+	var cache = [];
+    if (event.keyCode==49 || event.keyCode==50 || event.keyCode==51) {
+        cache.push(event.keyCode);
+    } else {
+        cache = [];
+    }
+    
+    if (cache.length <= 3 && cache[0] == 49 && cache[1] == 50 && cache[2] == 51) {
+        alert('you pressed 123');
+    }
+	*/
+
+                switch (event.keyCode) {
+                case 49:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS1", "_self");
+                    break;
+                case 50:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS2", "_self");
+                    break;
+                case 51:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS3", "_self");
+                    break;
+                case 52:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS4", "_self");
+                    break;
+                case 53:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS5", "_self");
+                    break;
+                case 54:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SF1", "_self");
+                    break;
+                case 55:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=1HD", "_self");
+                    break;
+                case 56:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=2HD", "_self");
+                    break;
+                case 57:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=3HD", "_self");
+                    break;
+                case 48:
+                    window.open("http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=4HD", "_self");
+                    break;
+                case 403:
+                    window.open("prodsplash.html", "_self");
+                    break;
+                case 27: //BACKUP button on the controller
+                    window.open("index.html", "_self");
+                }
+
+
+                document.getElementById("keyCodeBox").innerHTML = event.keyCode;
+
+            }
+
+        }
+    </script>
+    <div id="mainContainer">
+        <center>
+
+            <H1>V1.1 17/05/2016</H1>
+            <H1>Virgin Media Tivo PROD Launch Site</H1>
+            <BR>
+            <p>Please use the number keys to select a menu item..</p>
+            <BR>
+        </center>
+        <p>Key Code: <span id="keyCodeBox"></span>
+            <br>
+            <br>
+        </p>
+
+        <UL>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS1">1) SS1</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS2">2) SS2</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS3">3) SS3</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS4">4) SS4</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SS5">5) SS5</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=SF1">6) SF1</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=1HD">7) 1HD</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=2HD">8) 2HD</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=3HD">9) 3HD</a></LI>
+            <LI><a href="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/sportslaunch/sportslaunch.html?channelID=4HD">0) 4HD</a></LI>
+            <LI><a href="prodsplash.html"><span class="red">RED)</span> Production Splash Screens</a></LI>
+            <LI>Press Backup to return to the SIT UAT Menu</LI>
+        </UL>
+    </div>
+
+</body>
+
+</html>

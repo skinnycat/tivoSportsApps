@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>Sportlaunch Viewer 0.0.1</title>
+<meta charset=utf-8>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <script async src=common/common.min.js></script>
+    <script async src=sportslaunchviewer.js></script>
+    <script>
+        window.onload = function () {
+            sportsAppModel = new SportsAppModel, channelManagerModel = new ChannelManagerModel;
+            var viewer = new SportsLaunchViewer();
+            viewer.init();
+            //viewer.showData("sportslaunch");
+        }
+    </script>
+    <header id="top" class="top">
+        <div id="title" class="title" />
+    </header>
+    <div id="page-wrap" class="page-wrap">
+        <div id="section-column" class="section-column">
+            <div id="section-body" class="section-body">
+                <ul>
+                    <li class="sectionListItem" data-section="sportslaunch">Sports Launch</li>
+                </ul>
+                <div class="input-wrap">
+                    <span>App:</span></div>
+                <div>
+                    <label>
+                        <select id="sectionAppSelect">
+                            <option value="sportslaunch">Choose Application</option>
+                            <option value="app1">App 1 - Football 1</option>
+                            <option value="app2">App 2 - US Open Tennis</option>
+                            <option value="app4">App 4 - Football 2</option>
+                            <option value="app5">App 5 - Heineken Cup Rugby</option>
+                            <option value="app6">App 6 - Tennis Masters</option>
+                            <option value="app8">App 8 - Formula 1</option>
+                            <option value="gen1">Gen 1 - Generic App 1</option>
+                            <option value="gen2">Gen 2 - Generic App 2</option>
+                            <option value="gen3">Gen 3 - Generic App 3</option>
+                            <option value="gen4">Gen 4 - Generic App 4</option>
+                        </select>
+                    </label>
+                </div>
+                <ul>
+                    <li class="sectionListItem" data-section="alert">Alert Data</li>
+                    <li class="sectionListItem" data-section="config">Config</li>
+                    <li class="sectionListItem" data-section="draw0">Draw 1</li>
+                    <li class="sectionListItem" data-section="draw1">Draw 2</li>
+                    <li class="sectionListItem" data-section="draw2">Draw 3</li>
+                    <li class="sectionListItem" data-section="draw3">Draw 4</li>
+                    <li class="sectionListItem" data-section="iMenu">iMenu</li>
+                    <li class="sectionListItem" data-section="rtu">Real Time Updates</li>
+                    <li class="sectionListItem" data-section="tickerdata">Ticker Data</li>
+                    <li class="sectionListItem" data-section="videomenu">Video Menu</li>
+                </ul>
+            </div>
+        </div>
+        <div id="data-column" class="data-column">
+            <div id="data-body" class="data-body"></div>
+        </div>
+    </div>
+</body>
+
+</html>

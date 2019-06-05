@@ -1,0 +1,20 @@
+{
+    "tabs": [
+        {
+            "title": "NEWS",
+            "uri": "stats/tab1.json"
+		},
+        {
+            "title": "PROFILES",
+            "uri": "stats/tab2.json"
+		},
+        {
+            "title": "MASTERS",
+            "uri": "stats/tab3.json"
+		},
+        {
+            "title": "TABLES",
+            "uri": "stats/tab4.json"
+		}
+	]
+}

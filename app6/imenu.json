@@ -1,0 +1,72 @@
+{
+    "x": "106",
+    "y": "652",
+    "launchMenu": "iMENU",
+    "menu": [
+        {
+            "id": "iMENU",
+            "item": [
+                {
+                    "label": "VIDEO MENU",
+                    "hint": "SELECT FOR VIDEO MENU",
+                    "href": "matrix://VIDEO_MENU0"
+                },
+                {
+                    "label": "MAIN COVERAGE",
+                    "hint": "SELECT FOR THE MAIN COVERAGE",
+                    "href": "screen://v=SS3&a=9"
+                },
+                {
+                    "label": "COURT CHOICE",
+                    "hint": "SELECT FOR COURT CHOICE",
+                    "href": "menu://CourtChoice"
+                },
+                {
+                    "label": "DRAW",
+                    "hint": "SELECT FOR THE DRAW",
+                    "href": "draw://DRAW0"
+                },
+                {
+                    "label": "HELP",
+                    "hint": "SELECT FOR HELP",
+                    "href": "help://"
+                }
+            ]
+        },
+        {
+            "id": "CourtChoice",
+            "item": [
+                {
+                    "label": "CENTRE COURT",
+                    "hint": "SELECT FOR CENTRE COURT",
+                    "href": "screen://v=181&a=0"
+                },
+                {
+                    "label": "GRANDSTAND",
+                    "hint": "SELECT FOR GRANDSTAND",
+                    "href": "screen://v=182&a=1"
+                },
+                {
+                    "label": "COURT 1",
+                    "hint": "SELECT FOR COURT 1",
+                    "href": "screen://v=183&a=2"
+                }
+            ]
+        },
+        {
+            "id": "ALERTS",
+            "item": [
+                {
+                    "label": "ON",
+                    "hint": "SELECT TO TURN ON ALERTS",
+                    "href": "alert://1"
+                },
+                {
+                    "label": "OFF",
+                    "hint": "SELECT TO TURN OFF ALERTS",
+                    "href": "alert://0"
+                }
+            ]
+        }
+    ]
+}

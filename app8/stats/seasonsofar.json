@@ -1,0 +1,311 @@
+{
+"title" : "SEASON SO FAR",
+"race" : [
+		{
+		"name" : "AUSTRALIA",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton picked up where he left off in 2014 as he recorded career win number 34 and his first in Australia since 2008.\n\nThe season opener saw only 15 cars line-up in Melbourne. Manor were defeated in attempts to get the cars ready after their late confirmation that they would be racing in 2015. Valterri Bottas was deemed unfit to drive after suffering a back injury during qualifying whilst both Kevin Magnussen and Daniil Kvyat suffered mechanical failures before reaching the grid.\n\nThe field was reduced further when Pastor Maldonado's Lotus was forced into the barriers on the first lap after being squeezed for room by Felipe Nasr.\n\nRomain Grosjean also exited early with engine failure, although Lotus' promising qualifying performance had hinted at a better season than 2014.\n\nMercedes were unrivalled though, as Hamilton turned his pole position into a comfortable victory despite only finishing 1.3 seconds ahead of teammate Nico Rosberg.\n\nSebastian Vettel completed the podium on his Ferrari debut, although he was 34 seconds behind the Mercedes pair - teammate Kimi Raikkonen was forced to retire however after wheel problems following a pit-stop. Felipe Massa showed that the battle between Ferrari and Williams would be a close one, finishing fourth.\n\nF1 debutant Felipe Nasr came home fifth in the Sauber - a bright end to the week for the team that started in court as Giedo van der Garde launched proceedings to show that he had a contract entitling him to a seat. Marcus Ericsson also picked up his first ever points in eighth.\n\nRed Bull had a disappointing weekend - after Kvyat's pre-race gearbox issues, Daniel Ricciardo was lapped on his way to sixth.  \n\nBoth Force India drivers picked up points, with Nico Hulkenberg 7th and Sergo Perez, whilst Carlos Sainz's debut ended in 9th in the Toro Rosso.\n\nIt was a miserable weekend for McLaren - Jenson Button laboured at the back of the field for the entire race, but did finish in 11th. Max Verstappen was having an excellent debut, lying 6th before his Toro Rosso started smoking and had to be retired on lap 42.",
+		"img" : "1",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "F Massa", "team" : "WIL", "pts" : "12"},
+		{"pos": "5", "name": "F Nasr", "team" : "SAU", "pts" : "10"},
+		{"pos": "6", "name": "D Ricciardo", "team" : "RBR", "pts" : "8"},
+		{"pos": "7", "name": "N Hulkenberg", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "M Ericsson", "team" : "SAU", "pts" : "4"},
+		{"pos": "9", "name": "C Sainz", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "S Perez", "team" : "FOR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "MALAYSIA",
+		"winner" : "S Vettel (FER)",
+		"info" : "Sebastian Vettel won his first race for Ferrari, and the team's first race win since the 2013 Spanish Grand Prix. The German finished 8.5 seconds ahead of Lewis Hamilton.\n\nMax Verstappen finished 7th, to become the youngest driver to win F1 points, aged 17 and 180 days. Both the Toro Rosso drivers would finish ahead of the Red Bull drivers.\n\nRoberto Merhi finished in last place for the Manor Marussia team, a great achievement for the team, while his team-mate Will Stevens would did not start following a fuel system problem.\n\nIt was a miserable race for McLaren, with both drivers retiring from the race having started (Jenson Button) 17th and (Fernando Alonso) 18th on the grid.\n\nLewis Hamilton would not be happy with his team's strategy throughout the race, with regard to tyre selection, stating 'this is the wrong tyre' after his final pit-stop on lap 39 and a radio conversion on lap 43.\n\nLewis Hamilton secured pole in a rain affected qualifying session, alongside Sebastian Vettel on the front row of the grid, with Nico Rosberg third. Romain Grosjean received a two place grid penalty, for a pit-lane infringement in Q2. ",
+		"img" : "2",
+		"drivers" : [
+		{"pos": "1", "name": "S Vettel", "team" : "FER", "pts" : "25"},
+		{"pos": "2", "name": "L Hamilton", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "N Rosberg", "team" : "MER", "pts" : "15"},
+		{"pos": "4", "name": "K Raikkonen", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "F Massa", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "M Verstappen", "team" : "TOR", "pts" : "6"},
+		{"pos": "8", "name": "C Sainz", "team" : "TOR", "pts" : "4"},
+		{"pos": "9", "name": "D Kvyat", "team" : "RBR", "pts" : "2"},
+		{"pos": "10", "name": "D Ricciardo", "team" : "RBR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "CHINA",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton won his 4th race in China, a record.\n\nNico Rosberg was furious with his team-mate's 'go slow' tactics in the post-race conference, accusing  him of spoiling the race. Nico Rosberg feared he would be overtaken by Sebastian Vettel before the second pit-spot when Hamilton slowed down. Lewis Hamilton stated he was conserving his tyres and wasn't controlling the race, just his own race.\n\nTransmission failure on Max Verstappen's Toro Rosso brought out the safety car for the final two laps, and the race ended under the safety car conditions.\n\nPastor Maldonado missed the pit-lane on lap 33 and span on lap 39. He damaged his car when he collided with Jenson Button's McLaren on lap 48, and the Venezuelan retired with rear brake failure.\n\nBoth Williams drivers finished in the top six, while Manor Marussia's Will Stevens finished the race having not participated in the first two races of the season.\n\nLewis Hamilton secured his 5th pole, a record in China, ahead of his Mercedes team-mate. It was Lewis Hamilton's third consecutive pole and his third consecutive pole in China. The McLaren drivers failed to get out of Q1 and started ahead of both the Manor Marussia drivers on the grid.\n",
+		"img" : "3",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "K Raikkonen", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "F Massa", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "V Bottas", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "R Grosjean", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "F Nasr", "team" : "SAU", "pts" : "4"},
+		{"pos": "9", "name": "D Ricciardo", "team" : "RBR", "pts" : "2"},
+		{"pos": "10", "name": "M Ericsson", "team" : "SAU", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "BAHRAIN",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton completed his 3rd win of the season, but 1st in Bahrain, as he held off a charge by Kimi Raikkonen at Sakhir.\n\nStarting on pole, Hamilton led from the grid, only dropping from the lead during pit stops. However Raikkonen's switch of strategies gave him hope that he might be able to challenge for an unlikely win. His late charge saw his pass Nico Rosberg, who was struggling with a brakes problem, and ended a run of 27 races without a podium finish.\n\nRosberg had qualified in 3rd and dropped a place at the start, but had recovered to pass both Ferraris by lap 9. He was unable to repeat last season's thrilling win and had to settle for 3rd, ahead of Valtteri Bottas and Sebastian Vettel, who started on th front row but made 3 errors on his way to 5th.\n\nDaniel Ricciardo was 6th, whilst Romain Grosjean was the top Lotus driver in 7th. His teammate Pastor Maldonando had overcome a penalty for starting out of grid position, but seemed sure to score points until his engine stalled during his 2nd stop.\n\nSergio perez had a season best 8th place finish, with Daniil Kvyat in 9th. Felipe Massa picked up the final point, having started from the pit lane after stalling as the cars set off on the formation lap.\n\nMcLaren missed out on their first point of the season with Fernando Alonso in 11th, but Jenson Button didn't make it to the grid - having failed to set a qualifying time, the team withdrew his car on safety grounds having identified an electrical glitch.",
+		"img" : "4",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "K Raikkonen", "team" : "FER", "pts" : "18"},
+		{"pos": "3", "name": "N Rosberg", "team" : "MER", "pts" : "15"},
+		{"pos": "4", "name": "V Bottas", "team" : "WIL", "pts" : "12"},
+		{"pos": "5", "name": "S Vettel", "team" : "FER", "pts" : "10"},
+		{"pos": "6", "name": "D Ricciardo", "team" : "RBR", "pts" : "8"},
+		{"pos": "7", "name": "R Grosjean", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "S Perez", "team" : "FOR", "pts" : "4"},
+		{"pos": "9", "name": "D Kvyat", "team" : "RBR", "pts" : "2"},
+		{"pos": "10", "name": "F Massa", "team" : "WIL", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "SPAIN",
+		"winner" : "N Rosberg (MER)",
+		"info" : "Nico Rosberg won his first race of the season as he led from start to finish to cut the gap on leader Lewis Hamilton to 20 points after five races. \n\nHamilton had a poor start from second on the grid and was passed by Sebastian Vettel on the first corner. However, during the early part of the race he switched his race strategy and managed to pass the four times World Champion. \n\nAfter taking second, Hamilton fancied his chances of catching team-mate Rosberg for the win, but was told by his engineer Peter Bonnington that he had too much to do and to 'consolidate' second place. \n\nFerrari had come into the weekend with a major upgrade package, with revisions to almost every aerodynamic surface of the car, but it ended up making little difference as Mercedes were as dominant as they were in the first Grand Prix of the season in Australia. \n\nVettel took his fourth podium of the season and also a hat-trick of third positions in the process. The Williams of Valtteri Bottas held off a stern challenge from Kimi Raikkonen to take fourth place with Raikkonen finishing in fifth. \n\nThe second of the Williams of Felipe Massa was sixth, from the Red Bull of Daniel Ricciardo and Lotus's Romain Grosjean. \n\nToro Rosso's Carlos Sainz, who started in fifth position on the grid in his home GP, passed Red Bull's Daniil Kvyat on the last lap to take ninth place ahead of the Russian. \n\nThe McLaren's had another woeful afternoon with Jenson Button finishing 16th and Fernando Alonso retiring after 26 laps due to a brake failure. \n",
+		"img" : "5",
+		"drivers" : [
+		{"pos": "1", "name": "N Rosberg", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "L Hamilton", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "V Bottas", "team" : "WIL", "pts" : "12"},
+		{"pos": "5", "name": "K Raikkonen", "team" : "FER", "pts" : "10"},
+		{"pos": "6", "name": "F Massa", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "D Ricciardo", "team" : "RBR", "pts" : "6"},
+		{"pos": "8", "name": "R Grosjean", "team" : "LOT", "pts" : "4"},
+		{"pos": "9", "name": "C Sainz", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "D Kvyat", "team" : "RBR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "MONACO",
+		"winner" : "N Rosberg (MER)",
+		"info" : "Lewis Hamilton was cruelly denied victory in the Monaco Grand Prix because of a strategic error by his Mercedes team, gifting Nico Rosberg the win. \n\nHamilton led from pole and was comfortably in front all race until Mercedes pitted him after a late safety car following Max Verstappen's crash. \n\nTeam-mate Rosberg and Ferrari's Sebastian Vettel did not stop and passed Hamilton before he rejoined. \n\nThis was a bitter blow to Hamilton, who had come to Monaco determined to take his first win here since 2008. \n\nRosberg closed the gap in the championship over Hamilton to 10 points, with Vettel a further 18 points adrift. \n\nDaniel Ricciardo managed to pull off a daring move on lap 72 when he controversially pushed Kimi Raikkonen aside. However, even though Red Bull ordered his team-mate Daniil Kvyat to let him through, he could not pass Hamilton in third. \n\nOn the last lap, Red Bull ordered Ricciardo to let Kvyat through to take fourth place. \n\nRaikkonen finished sixth with Sergio Perez taking seventh spot. \n\nThe McLaren's scored their first points of the season with Jenson Button taking eighth place. \n\nFelipe Nasr (ninth) and Carlos Sainz Jnr made up the top 10 respectively.\n",
+		"img" : "6",
+		"drivers" : [
+		{"pos": "1", "name": "N Rosberg", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "S Vettel", "team" : "FER", "pts" : "18"},
+		{"pos": "3", "name": "L Hamilton", "team" : "MER", "pts" : "15"},
+		{"pos": "4", "name": "D Kvyat", "team" : "RBR", "pts" : "12"},
+		{"pos": "5", "name": "D Ricciardo", "team" : "RBR", "pts" : "10"},
+		{"pos": "6", "name": "K Raikkonen", "team" : "FER", "pts" : "8"},
+		{"pos": "7", "name": "S Perez", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "J Button", "team" : "MCL", "pts" : "4"},
+		{"pos": "9", "name": "F Nasr", "team" : "SAU", "pts" : "2"},
+		{"pos": "10", "name": "C Sainz", "team" : "TOR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "CANADA",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton won from pole, his 4th Canadian Grand Prix win.\n\nSebastian Vettel finished in 5th place, while Felipe Massa finished behind the German, having both started the race in 16th and 17th on the grid respectively.\n\nBoth McLaren drivers retired from the race with exhaust problems, while the only other retirement was Roberto Merhi.\n\nMax Verstappen started 19th on the gird, having received a five grid penalty for his racing incident in Monaco, with a further 10 place grid penalty for exceeding the allowed internal combustion engine allocation. Sebastian Vettel received a five grid penalty for overtaking on a red flag in P3.\n\nJenson Button would not take part in qualifying, while Sebastian Vettel and Felipe Massa were eliminated in Q1 with power unit problems.\n\nLewis Hamilton was quickest in P1 and again in P2, despite crashing his car during P2 while on his intermediate tyres in the wet conditions, as the rain affected the second half of the season.\n\nThe third practice was marred by the red flag, for Felipe Nasr's crash and Jenson Button's power unit failure. \n",
+		"img" : "7",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "V Bottas", "team" : "WIL", "pts" : "15"},
+		{"pos": "4", "name": "K Raikkonen", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "S Vettel", "team" : "FER", "pts" : "10"},
+		{"pos": "6", "name": "F Massa", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "P Maldonado", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "N Hulkenberg", "team" : "FOR", "pts" : "4"},
+		{"pos": "9", "name": "D Kvyat", "team" : "RBR", "pts" : "2"},
+		{"pos": "10", "name": "R Grosjean", "team" : "LOT", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "AUSTRIA",
+		"winner" : "N Rosberg (MER)",
+		"info" : "Nico Rosberg recorded his second win of 2015, moving to within 10 points of Lewis Hamilton in the Championship, as he repeated his 2014 win at the Red Bull Ring.\n\nRosberg had started behind Hamilton, the Mercedes pair once again occupying the grid's front row despite both spinning off on their final hot laps in qualifying. The German overtook his teammate going into the first corner, and apart from a brief period after his only pit stop, led the field thereafter.\n\nHamilton finished second, his chances not helped by a five second penalty for crossing the white line when exiting the pits after his tyre change. He was still comfortably clear of Felipe Massa, who had taken advantage of Sebastian Vettel's delay in the pits caused by a problem changing a rear wheel, to take the final podium place.\n\nVettel's teammate Kimi Raikkonen had been involved in a spectacular first lap accident with Fernando Alonso, which saw the McLaren mount the Ferrari and narrowly miss Raikkonen's head as they crashed into a barrier. The incident resulted in the following six laps being run behind the safety car.\n\nValterri Bottas finished fifth, with newly crowned Le Mans champion Nico Hulkenberg a season best sixth. Pastor Maldonado, Max Verstappen, Sergio Perez and Daniel Ricciardo completed the top ten, all lapped by the winner.\n\nBoth Ricciardo and Daniil Kvyat had received 10-place grid penalties after engine changes to their Red Bulls, whilst McLaren's season of woe continued, with Alonso and Jenson Button having power unit changes which resulted in 25-place penalties for power unit changes. Button then only made it to lap 10 before being forced to retire.  ",
+		"img" : "8",
+		"drivers" : [
+		{"pos": "1", "name": "N Rosberg", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "L Hamilton", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "F Massa", "team" : "WIL", "pts" : "15"},
+		{"pos": "4", "name": "S Vettel", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "N Hulkenberg", "team" : "FOR", "pts" : "8"},
+		{"pos": "7", "name": "P Maldonado", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "M Verstappen", "team" : "TOR", "pts" : "4"},
+		{"pos": "9", "name": "S Perez", "team" : "FOR", "pts" : "2"},
+		{"pos": "10", "name": "D Ricciardo", "team" : "RBR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "GREAT BRITAIN",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton won his third British Grand Prix and fifth race of the season with a fine drive after a poor start from the grid and in battling conditions. \n\nHamilton had to pass both Williams after losing the lead off the line and second place at a re-start following an early safety car. \n\nHamilton managed to take the lead not long after the first pit stops after producing a stunning in-lap and a very quick pit stop. \n\nWhen Felipe Massa and Nico Rosberg pitted on the next lap Hamilton passed them before they were back out on the circuit. \n\nThe rain made for a chaotic end to the race but Hamilton came through to win from Rosberg and Ferrari's Sebastian Vettel. \n\nBoth of the early front runners, the Williams of Massa and team-mate Valtteri Bottas finished in fourth and fifth respectively. \n\nRed Bull's Daniil Kvyat was sixth, Force India's Nico Hulkenberg claimed seventh and the second Ferrari of Kimi Raikkonen finished in eighth. \n\nSergio Perez finished ninth with the Mclaren of Fernando Alonso scoring his first points of a challenging year in the unconvincing McLaren-Honda. \n\nJenson Button failed to finish after retiring on lap one after a four way collision with both Lotus's of Romain Grosjean and Pastor Maldonado and team-mate Alonso. \n\n\n\n\n",
+		"img" : "9",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "F Massa", "team" : "WIL", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "D Kvyat", "team" : "RBR", "pts" : "8"},
+		{"pos": "7", "name": "N Hulkenberg", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "K Raikkonen", "team" : "FER", "pts" : "4"},
+		{"pos": "9", "name": "S Perez", "team" : "FOR", "pts" : "2"},
+		{"pos": "10", "name": "F Alonso", "team" : "MCL", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "HUNGARY",
+		"winner" : "S Vettel (FER)",
+		"info" : "Sebastian Vettel finally tasted victory at the Hungaroring in his ninth visit to Budapest. He guided his Ferrari from third on the grid to lead at the first corner and was never troubled despite all sorts of drama happening behind him.\n\nThe Mercedes pair of Lewis Hamilton and Nico Rosbery had once again occupied the front row. Hamilton dropped to fourth at the first corner and finished the opening lap in 10t after running off. Rosberg was also passed by both Ferraris, who went on to open a healthy lead on the field in the first half of the race.\n\nThe face of the race changed when the safety car was deployed following Nico Hulkenberg's 42nd lap crash, the front wing having ripped off the Force India. Kimi Raikkonen had already reported power problems and was passed by a number of cars soon after the restart, before the decision was taken to retire. \n\nRosberg was unable to exert pressure on Vettel and eventually a collision with Daniel Ricciardo caused a puncture which meant he finished eighth. Ricciardo's wing change cost him the runner-up spot, which went to his teammate Daniil Kvyat, a career best.\n\nHamilton had also been in an earlier collision with Ricciardo and dropped to 13th after a wing change and drive-through penalty. He eventually worked his way up to sixth, extending his championship lead.\n\nMax Verstappen finished in a career best fourth and Fernando Alonso gave McLaren some encouragement win fifth, teammate Jenson Button (ninth) also in the points.\n\nRomain Grosjean was seventh but his Lotus teammate Pastor Maldonando had a forgettable afternoon, suffering three penalties, for causing a collision and then both speeding and overtaking under the safety car.",
+		"img" : "11",
+		"drivers" : [
+		{"pos": "1", "name": "S Vettel", "team" : "FER", "pts" : "25"},
+		{"pos": "2", "name": "D Kvyat", "team" : "RBR", "pts" : "18"},
+		{"pos": "3", "name": "D Ricciardo", "team" : "RBR", "pts" : "15"},
+		{"pos": "4", "name": "M Verstappen", "team" : "TOR", "pts" : "12"},
+		{"pos": "5", "name": "F Alonso", "team" : "MCL", "pts" : "10"},
+		{"pos": "6", "name": "L Hamilton", "team" : "MER", "pts" : "8"},
+		{"pos": "7", "name": "R Grosjean", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "N Rosberg", "team" : "MER", "pts" : "4"},
+		{"pos": "9", "name": "J Button", "team" : "MCL", "pts" : "2"},
+		{"pos": "10", "name": "M Ericsson", "team" : "SAU", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "BELGIUM",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton won the race and extended his championship lead to 28 points over Nico Rosberg.\n\nRomain Grosjean finished third and secured Lotus' first podium place since the 2013 United States Grand Prix. The Frenchman benefited from Sebastian Vettel's tyre failure on the penultimate lap. The German finished outside the points having been in third place. It was the second such incident of the weekend after Nico Rosberg suffered a high-speed tyre failure in P2.\n\nValtteri Bottas served a drive through penalty after his team had simultaneously put on two different types of tyre compounds during his first pit-stop. \n\nNico Hulkenberg failed to start the race, after having power issues on his Force India on the grid and during the first formation lap. \n\nLewis Hamilton became the first driver to secure six consecutive poles since Michael Schumacher in 2000 and 2001, while the last driver to secure six consecutive poles in one season was Mika Hakkinen in 1999.\n\nThe race was Ferrari's 900th Grand Prix entry.\n",
+		"img" : "12",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "R Grosjean", "team" : "LOT", "pts" : "15"},
+		{"pos": "4", "name": "D Kvyat", "team" : "RBR", "pts" : "12"},
+		{"pos": "5", "name": "S Perez", "team" : "FOR", "pts" : "10"},
+		{"pos": "6", "name": "F Massa", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "K Raikkonen", "team" : "FER", "pts" : "6"},
+		{"pos": "8", "name": "M Verstappen", "team" : "TOR", "pts" : "4"},
+		{"pos": "9", "name": "V Bottas", "team" : "WIL", "pts" : "2"},
+		{"pos": "10", "name": "M Ericsson", "team" : "SAU", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "ITALY",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton's win was only confirmed two hours after the race was finished, pending an investigation on both Mercedes' left rear tyres, which were found to have had 0.3psi less tyre pressure than the regulations allow. The stewards were happy with the explanation and decided not to take any further action.\n\nThe Mercedes team told Lewis Hamilton to increase his speed on lap 49, without giving the driver an explanation, with Hamilton leading Sebastian Vettel by 23 seconds. It later proved that Hamilton's left rear tyre had too little pressure, and feared a time penalty after the race.\n\nNico Rosberg's engine blew on the penultimate lap, handing Felipe Massa a podium finish.\n\nLewis Hamilton secured his 7th consecutive pole. Ayrton Senna (1990-91), Alain Prost (1993) and Michael Schumacher in 2000-01 have all secured 7 consecutive poles. Ayrton Senna holds the record, 8 consecutive poles in 1988-89.\n\nKimi Raikkonen started on the front row of the grid, with Sebastian Vettel and Nico Rosberg on the second row but the Finn stalled and dropped to 18th place on the opening lap.\n\nMax Verstappen started from the back of the grid, after receiving a 30-place grid penalty for a change of power unit, placing him 17th, and he failed to set a qualifying time within 107%, but the stewards allowed him to start.\n\nMax Verstappen was also handed a drive through penalty to be served within the first three laps of the race for an unsafe pit-release during qualifying, when his engine cover came off at Curva Grande.\n",
+		"img" : "13",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "S Vettel", "team" : "FER", "pts" : "18"},
+		{"pos": "3", "name": "F Massa", "team" : "WIL", "pts" : "15"},
+		{"pos": "4", "name": "V Bottas", "team" : "WIL", "pts" : "12"},
+		{"pos": "5", "name": "K Raikkonen", "team" : "FER", "pts" : "10"},
+		{"pos": "6", "name": "S Perez", "team" : "FOR", "pts" : "8"},
+		{"pos": "7", "name": "N Hulkenberg", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "D Ricciardo", "team" : "RBR", "pts" : "4"},
+		{"pos": "9", "name": "M Ericsson", "team" : "SAU", "pts" : "2"},
+		{"pos": "10", "name": "D Kvyat", "team" : "RBR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "SINGAPORE",
+		"winner" : "S Vettel (FER)",
+		"info" : "Sebastian Vettel won his third Grand Prix of the season to cut the gap on Lewis Hamilton to 49 points after the Brit retired on lap 33 with a loss of power to his engine. \n\nWith six races remaining, the World Drivers Championship has now become a three horse race with Vettel now realising he has a small but realistic chance of winning his fifth Drivers Championship. \n\nFor most of the season, it has looked like Ferrari still had a long road to travel. Now, at least on the evidence of this race, perhaps that ambition does not look far away after all. \n\nVettel led the race from start to finish with the Red Bull of Daniel Ricciardo finishing comfortably in second spot ahead of the other Ferrari of Kimi Raikkonen. \n\nThe Mercedes of Nico Rosberg did not have the speed of the Ferrari's and failed to catch either. He finished in a comfortable fourth place and gained 12 points on Championship leader Hamilton. \n\nHowever, even though the race was not a classic in terms of excitement at the front of the race, the safety car came out on more than one occasion, this partly due to an intruder walking down the track on lap 37. \n\nAt the start of the race, Max Verstappen car would not initially start as the lights went to green, but he managed to catch up and eventually overtake some of the back markers to finish in a superb eighth place. \n\nDaniel Kvyat who started fourth on the grid finished in a respectable fifth place for a valuable eight points for the Red Bull team. \n\nThe top 10 was made up Sergio Perez seventh, Carlos Sainz ninth and the Brazilian of Felipe Nasr finishing 10th.  \n",
+		"img" : "14",
+		"drivers" : [
+		{"pos": "1", "name": "S Vettel", "team" : "FER", "pts" : "25"},
+		{"pos": "2", "name": "D Ricciardo", "team" : "RBR", "pts" : "18"},
+		{"pos": "3", "name": "K Raikkonen", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "N Rosberg", "team" : "MER", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "D Kvyat", "team" : "RBR", "pts" : "8"},
+		{"pos": "7", "name": "S Perez", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "M Verstappen", "team" : "TOR", "pts" : "4"},
+		{"pos": "9", "name": "C Sainz", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "F Nasr", "team" : "SAU", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "JAPAN",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton won the race to equal Ayrton Senna's 41 Grand Prix wins, 18.9 seconds ahead of Nico Rosberg. He was able to pass the German at the first corner and never relinquished the lead.\n\nFelipe Nasr was the only retirement on lap 49 with mechanical problems, but would be classified in last place.\n\nDaniel Ricciardo collided with Felipe Massa on the first lap, resulting in punctures for both drivers. Sergio Perez also had to go into the pits with a puncture.\n\nNico Rosberg started on pole. Qualifying ended prematurely after Daniil Kvyat's crash with 36 seconds remaining. \n\nDaniil Kvyat would start from the pit-lane having received a penalty for a chassis change due to his crash in qualifying.\n",
+		"img" : "15",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "K Raikkonen", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "N Hulkenberg", "team" : "FOR", "pts" : "8"},
+		{"pos": "7", "name": "R Grosjean", "team" : "LOT", "pts" : "6"},
+		{"pos": "8", "name": "P Maldonado", "team" : "LOT", "pts" : "4"},
+		{"pos": "9", "name": "M Verstappen", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "C Sainz", "team" : "TOR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "UNITED STATES",
+		"winner" : "L Hamilton (MER)",
+		"info" : "Lewis Hamilton becomes the second British driver to win three Drivers' titles after Sir Jackie Stewart, after he wins the race, his third United States Grand Prix win of his career.\n\nMax Verstappen equals his best F1 finish, a 4th place, while Jenson Button finished 6th, his best finish this year.\n\nThe race started on intermediate tyres in damp conditions. Lewis Hamilton forced Nico Rosberg wide at the first corner to take the lead of the race, with Daniil Kvyat in second place.\n\nDaniel Ricciardo took the lead of the race from Lewis Hamilton on lap 15, but relinquishes the lead, when the Australian is overtaken by Nico Rosberg on lap 22.\n\nLewis Hamilton took the lead on lap 39, but he was on a set of older tyres. Daniil Kvyat crashed on lap 43, which allowed Lewis Hamilton to change his tyres under the safety car.\n\nLewis Hamilton overtakes Nico Rosberg to retake the lead of the race on lap 48. \n\nSevere weather conditions disrupted the United States Grand Prix, due to Hurricane 'Patrica' that hit Mexico.\n\nNico Rosberg was quickest in P1 in the wet conditions, while P2 was cancelled as the weather conditions worsened. Lewis Hamilton was fastest in P3 in wet conditions on Saturday. Bad weather continued to disrupt Saturday's proceedings as qualifying was delayed several times and eventually rescheduled for the morning of the race.\n\nQ1 ended prematurely in wet conditions when Carlos Sainz Junior crashed.\n\nNico Rosberg took his third consecutive pole, as he was quickest in Q2, because Q3 was cancelled as the weather conditions worsened.\n\nSebastian Vettel, Kimi Raikkonen, Valtteri Bottas, Will Stevens were all given grid penalties, while Carlos Sainz Junior was allowed to start by the stewards, having failed to set a lap time within 107% in Q1.",
+		"img" : "17",
+		"drivers" : [
+		{"pos": "1", "name": "L Hamilton", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "N Rosberg", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "M Verstappen", "team" : "TOR", "pts" : "12"},
+		{"pos": "5", "name": "S Perez", "team" : "FOR", "pts" : "10"},
+		{"pos": "6", "name": "J Button", "team" : "MCL", "pts" : "8"},
+		{"pos": "7", "name": "C Sainz", "team" : "TOR", "pts" : "6"},
+		{"pos": "8", "name": "P Maldonado", "team" : "LOT", "pts" : "4"},
+		{"pos": "9", "name": "F Nasr", "team" : "SAU", "pts" : "2"},
+		{"pos": "10", "name": "D Ricciardo", "team" : "RBR", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "Mexican Grand Prix",
+		"winner" : "N Rosberg (MER)",
+		"info" : "Nico Rosberg clinched his 12th career win and took his first victory since the Austrian grand prix in June. \n\nThe German led from the first corner and managed to contain the challenge from his team-mate and triple world champion Lewis Hamilton who was always in his shadow. \n\nThe Williams of Valtteri Bottas took third place with an assured drive as he held off the challenge of Russian Daniil Kvyat who finished comfortably in fourth place. \n\nHowever, slight controversy occurred in the Mercedes team when Hamilton disagreed with team orders for him to make a second pit stop. The plan for the team was to run the race on a single stop strategy but they decided to call in both Mercedes drivers. \n\nHamilton disagreed with the decision but was told to come in and he duly did so a lap later than ordered too. \n\nHistory was made but for the wrong reasons for Ferrari as both cars failed to finish for the first time in nine years, this being the longest streak in F1 history. \n\nSebastian Vettel had a very poor race by his high standards and lost control of his car at turn seven on lap 50 and ended in the barriers. Kimi Raikkonen also suffered a woeful day and ended the race on lap 21 after he collided with Bottas and broke his suspension. \n\nMexican Sergio Perez who was the home hero and was ecstatically supported throughout the race, managed to finish in a respectable eighth place in his Force India. \n\nDaniel Ricciardo finished in fifth, with Felipe Massa taking sixth place, Nico Hulkenberg securing seventh and Max Verstappen and Romain Grosjean making up the top 10. \n",
+		"img" : "18",
+		"drivers" : [
+		{"pos": "1", "name": "N Rosberg", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "L Hamilton", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "V Bottas", "team" : "WIL", "pts" : "15"},
+		{"pos": "4", "name": "D Kvyat", "team" : "RBR", "pts" : "12"},
+		{"pos": "5", "name": "D Ricciardo", "team" : "RBR", "pts" : "10"},
+		{"pos": "6", "name": "F Massa", "team" : "WIL", "pts" : "8"},
+		{"pos": "7", "name": "N Hulkenberg", "team" : "FOR", "pts" : "6"},
+		{"pos": "8", "name": "S Perez", "team" : "FOR", "pts" : "4"},
+		{"pos": "9", "name": "M Verstappen", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "R Grosjean", "team" : "LOT", "pts" : "1"}
+		]
+		},
+		{
+		"name" : "BRAZIL",
+		"winner" : "N Rosberg (MER)",
+		"info" : "Nico Rosberg won by 7.7 seconds from team-mate Lewis Hamilton. \n\nHamilton found it difficult to close the gap and complained to his team about changing his strategy which they refused.\n\nFelipe Massa was disqualified after the race, for having his rear right tyre at the start of the race 27 degrees higher than the recommend temperature, while Carlos Sainz Junior started from the pit-lane after failing to stop at the weighbridge during Q1. The Spanard's problems continued as he retired shortly before the race started with electrical issues.\n\nNico Rosberg secured his 5th consecutive pole.\n\nFernando Alonso failed to a set a time in Q1 after engine problems and was allowed to start by the stewards in last place behind the Marussia team. Valtteri Bottas, Daniel Ricciardo and Felipe Nasr all received grid penalties.\n",
+		"img" : "19",
+		"drivers" : [
+		{"pos": "1", "name": "N Rosberg", "team" : "MER", "pts" : "25"},
+		{"pos": "2", "name": "L Hamilton", "team" : "MER", "pts" : "18"},
+		{"pos": "3", "name": "S Vettel", "team" : "FER", "pts" : "15"},
+		{"pos": "4", "name": "K Raikkonen", "team" : "FER", "pts" : "12"},
+		{"pos": "5", "name": "V Bottas", "team" : "WIL", "pts" : "10"},
+		{"pos": "6", "name": "N Hulkenberg", "team" : "FOR", "pts" : "8"},
+		{"pos": "7", "name": "D Kvyat", "team" : "RBR", "pts" : "6"},
+		{"pos": "8", "name": "R Grosjean", "team" : "LOT", "pts" : "4"},
+		{"pos": "9", "name": "M Verstappen", "team" : "TOR", "pts" : "2"},
+		{"pos": "10", "name": "P Maldonado", "team" : "LOT", "pts" : "1"}
+		]
+		}
+]
+}

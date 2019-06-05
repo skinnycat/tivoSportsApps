@@ -1,0 +1,35 @@
+{"videoMenu": [
+		{
+			"matrix" : { 
+			"video" : "181", 
+			"rgb" : "0xFFFFFF",
+				"option" : [
+					{ "name" : "Master", "u" : "0", "d" : "2", "l" : "1", "r" : "1", "x" : "99", "y" : "111", "w" : "536", "h" : "263", "menuAudio" : "0", "href" : "screen://v=SF1&a=9" },
+					{ "name" : "Timing", "u" : "1", "d" : "2", "l" : "0", "r" : "2", "x" : "650", "y" : "111", "w" : "536", "h" : "263", "menuAudio" : "1", "href" : "screen://v=182&a=1" },
+					{ "name" : "Pit Lane", "u" : "0", "d" : "4", "l" : "1", "r" : "3", "x" : "99", "y" : "416", "w" : "261", "h" : "111", "menuAudio" : "2", "href" : "screen://v=183&a=2" },
+					{ "name" : "Track Mix", "u" : "0", "d" : "5", "l" : "2", "r" : "4", "x" : "375", "y" : "416", "w" : "261", "h" : "111", "menuAudio" : "3", "href" : "screen://v=184&a=3", "ma" : "true" },
+					{ "name" : "On Board 1", "u" : "0", "d" : "0", "l" : "3", "r" : "5", "x" : "99", "y" : "562", "w" : "261", "h" : "111", "menuAudio" : "4", "href" : "screen://v=185&a=4", "ma" : "true" },
+					{ "name" : "On Board 2", "u" : "2", "d" : "0", "l" : "4", "r" : "0", "x" : "375", "y" : "562", "w" : "261", "h" : "111", "menuAudio" : "5", "href" : "screen://v=186&a=5", "ma" : "true" }
+				]
+			}
+		}
+  ],
+  "ma": [
+		{
+			"lab" : "Main",
+			"aid": "0"
+		},
+		{
+			"lab" : "One",
+			"aid": "1"
+		},
+		{
+			"lab" : "Two",
+			"aid": "2"
+		},
+		{
+			"lab" : "Three",
+			"aid": "3"
+		}
+  ]	
+}

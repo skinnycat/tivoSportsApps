@@ -1,0 +1,16 @@
+{
+"title" : "CONSTRUCTORS' STANDINGS",
+"cs" : [
+{"rank": "1", "team": "Mercedes","pts": "258"},
+{"rank": "2", "team": "Ferrari","pts": "177"},
+{"rank": "3", "team": "Red Bull","pts": "140"},
+{"rank": "4", "team": "Williams","pts": "90"},
+{"rank": "5", "team": "Force India","pts": "59"},
+{"rank": "6", "team": "Toro Rosso","pts": "32"},
+{"rank": "7", "team": "McLaren","pts": "24"},
+{"rank": "8", "team": "Haas","pts": "22"},
+{"rank": "9", "team": "Renault","pts": "6"},
+{"rank": "10", "team": "Sauber","pts": "0"},
+{"rank": "11", "team": "Manor","pts": "0"}
+]
+}

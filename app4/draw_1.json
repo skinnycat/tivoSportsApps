@@ -1,0 +1,540 @@
+{
+"title":"US OPEN - Women's",
+"activeRound":4,
+"players":[
+{"name":"S. WILLIAMS","id":0},
+{"name":"V. DIATCHENKO","id":1},
+{"name":"K. BERTENS","id":2},
+{"name":"M. LUCIC-BARONI","id":3},
+{"name":"K. KOZLOVA","id":4},
+{"name":"B. MATTEK-SANDS","id":5},
+{"name":"C. VANDEWEGHE","id":6},
+{"name":"S. STEPHENS","id":7},
+{"name":"M. KEYS","id":8},
+{"name":"K. KOUKALOVA","id":9},
+{"name":"T. SMITKOVA","id":10},
+{"name":"A. MITU","id":11},
+{"name":"M. LINETTE","id":12},
+{"name":"U. RADWANSKA","id":13},
+{"name":"K. SINIAKOVA","id":14},
+{"name":"A. RADWANSKA","id":15},
+{"name":"B. BENCIC","id":16},
+{"name":"S. KARATANTCHEVA","id":17},
+{"name":"D. HANTUCHOVA","id":18},
+{"name":"M. DOI","id":19},
+{"name":"I. FALCONI","id":20},
+{"name":"S. CRAWFORD","id":21},
+{"name":"M. PUIG","id":22},
+{"name":"V. WILLIAMS","id":23},
+{"name":"A PAVLYUCHENKOVA","id":24},
+{"name":"M. RYBARIKOVA","id":25},
+{"name":"A. KONTAVEIT","id":26},
+{"name":"C. DELLACQUA","id":27},
+{"name":"S. ZHENG","id":28},
+{"name":"M. BRENGLE","id":29},
+{"name":"A. TATISHVILI","id":30},
+{"name":"K. PLISKOVA","id":31},
+{"name":"K. KASATKINA","id":32},
+{"name":"D. GAVRILOVA","id":33},
+{"name":"A. KONJUH","id":34},
+{"name":"T. MARIA","id":35},
+{"name":"L. ARRUABARRENA","id":36},
+{"name":"B. JOVANOVSKI","id":37},
+{"name":"K. MLADENOVIC","id":38},
+{"name":"S. KUZNETSOVA","id":39},
+{"name":"E. SVITOLINA","id":40},
+{"name":"E. KULICHKOVA","id":41},
+{"name":"A-L. FRIEDSAM","id":42},
+{"name":"K. KANEPI","id":43},
+{"name":"L. DAVIS","id":44},
+{"name":"H. WATSON","id":45},
+{"name":"T. PEREIRA","id":46},
+{"name":"E. MAKAROVA","id":47},
+{"name":"C. S NAVARRO","id":48},
+{"name":"D. ALLERTOVA","id":49},
+{"name":"V. KING","id":50},
+{"name":"R. VINCI","id":51},
+{"name":"S. KENIN","id":52},
+{"name":"M. DUQUE-MARINO","id":53},
+{"name":"O. DODIN","id":54},
+{"name":"J. JANKOVIC","id":55},
+{"name":"E. BOUCHARD","id":56},
+{"name":"A. RISKE","id":57},
+{"name":"P. HERCOG","id":58},
+{"name":"Z. DIYAS","id":59},
+{"name":"J. PEGULA","id":60},
+{"name":"A. VAN UYTVANCK","id":61},
+{"name":"D. CIBULKOVA","id":62},
+{"name":"A. IVANOVIC","id":63},
+{"name":"P. KVITOVA","id":64},
+{"name":"L. SIEGEMUND","id":65},
+{"name":"L. D LINO","id":66},
+{"name":"N. GIBBS","id":67},
+{"name":"A. KRUNIC","id":68},
+{"name":"D. KOVINIC","id":69},
+{"name":"J. GOERGES","id":70},
+{"name":"A.K. SCHMIEDLOVA","id":71},
+{"name":"A. PETKOVIC","id":72},
+{"name":"C. GARCIA","id":73},
+{"name":"L. ROBSON","id":74},
+{"name":"E. VESNINA","id":75},
+{"name":"L. CHIRICO","id":76},
+{"name":"J. KONTA","id":77},
+{"name":"C. WITTHOEFT","id":78},
+{"name":"G. MUGURUZA","id":79},
+{"name":"S. ERRANI","id":80},
+{"name":"M. HIBI","id":81},
+{"name":"J. OSTAPENKO","id":82},
+{"name":"A. BECK","id":83},
+{"name":"E. RODINA","id":84},
+{"name":"T. MRDEZA","id":85},
+{"name":"T. BABOS","id":86},
+{"name":"S. STOSUR","id":87},
+{"name":"F. PENNETTA","id":88},
+{"name":"J. GAJDOSOVA","id":89},
+{"name":"A. PANOVA","id":90},
+{"name":"M. NICULESCU","id":91},
+{"name":"C. MCHALE","id":92},
+{"name":"P. CETKOVSKA","id":93},
+{"name":"J. LOEB","id":94},
+{"name":"C. WOZNIACKI","id":95},
+{"name":"L. SAFAROVA","id":96},
+{"name":"L. TSURENKO","id":97},
+{"name":"V. LEPCHENKO","id":98},
+{"name":"K. FLIPKENS","id":99},
+{"name":"T. PIRONKOVA","id":100},
+{"name":"M. BARTHEL","id":101},
+{"name":"O. GOVORTSOVA","id":102},
+{"name":"I-C. BEGU","id":103},
+{"name":"V. AZARENKA","id":104},
+{"name":"L. HRADECKA","id":105},
+{"name":"F. SCHIAVONE","id":106},
+{"name":"Y. WICKMAYER","id":107},
+{"name":"A. TOMLJANOVIC","id":108},
+{"name":"K. KNAPP","id":109},
+{"name":"A. DULGHERU","id":110},
+{"name":"A. KERBER","id":111},
+{"name":"T. BACSINSZKY","id":112},
+{"name":"B. STRYCOVA","id":113},
+{"name":"M. SAKKARI","id":114},
+{"name":"Q. WANG","id":115},
+{"name":"C. GIORGI","id":116},
+{"name":"J. LARSSON","id":117},
+{"name":"A. SASNOVICH","id":118},
+{"name":"S. LISICKI","id":119},
+{"name":"A. CORNET","id":120},
+{"name":"K. NARA","id":121},
+{"name":"S. ROGERS","id":122},
+{"name":"S. VICKERY","id":123},
+{"name":"Y. PUTINTSEVA","id":124},
+{"name":"K. BONDARENKO","id":125},
+{"name":"M. ERAKOVIC","id":126},
+{"name":"S. HALEP","id":127}
+],
+"rounds":[
+[
+{
+"extraText":"Retired","player1":"0","player2":"1","score1":"6 2 ","score2":"0 0 ","winner":"0"
+},
+{
+"extraText":"","player1":"2","player2":"3","score1":"3 6 6 ","score2":"6 4 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"4","player2":"5","score1":"4 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"6","player2":"7","score1":"6 6 ","score2":"4 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"8","player2":"9","score1":"6 6 ","score2":"4 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"10","player2":"11","score1":"7 6 ","score2":"6 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"12","player2":"13","score1":"7 6 ","score2":"6 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"14","player2":"15","score1":"2 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"16","player2":"17","score1":"6 6 ","score2":"1 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"18","player2":"19","score1":"3 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"20","player2":"21","score1":"6 6 ","score2":"4 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"22","player2":"23","score1":"4 7 3 ","score2":"6 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"24","player2":"25","score1":"6 7 ","score2":"4 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"26","player2":"27","score1":"7 6 ","score2":"5 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"28","player2":"29","score1":"2 7 5 ","score2":"6 5 7 ","winner":"1"
+},
+{
+"extraText":"","player1":"30","player2":"31","score1":"6 6 ","score2":"2 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"32","player2":"33","score1":"6 4 7 ","score2":"2 6 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"34","player2":"35","score1":"6 6 ","score2":"4 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"36","player2":"37","score1":"2 2 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"38","player2":"39","score1":"6 7 ","score2":"3 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"40","player2":"41","score1":"6 6 ","score2":"1 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"42","player2":"43","score1":"1 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"44","player2":"45","score1":"7 7 ","score2":"6 6 ","winner":"0"
+},
+{
+"extraText":"","player1":"46","player2":"47","score1":"3 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"48","player2":"49","score1":"1 6 ","score2":"6 7 ","winner":"1"
+},
+{
+"extraText":"","player1":"50","player2":"51","score1":"4 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"52","player2":"53","score1":"3 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"54","player2":"55","score1":"2 7 6 ","score2":"6 5 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"56","player2":"57","score1":"6 6 ","score2":"4 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"58","player2":"59","score1":"6 7 ","score2":"2 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"60","player2":"61","score1":"7 6 ","score2":"5 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"62","player2":"63","score1":"6 3 6 ","score2":"3 6 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"64","player2":"65","score1":"6 6 ","score2":"1 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"66","player2":"67","score1":"3 6 4 ","score2":"6 3 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"68","player2":"69","score1":"6 5 1 ","score2":"4 7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"70","player2":"71","score1":"3 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"72","player2":"73","score1":"3 6 7 ","score2":"6 4 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"74","player2":"75","score1":"6 3 5 ","score2":"3 6 7 ","winner":"1"
+},
+{
+"extraText":"","player1":"76","player2":"77","score1":"3 0 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"78","player2":"79","score1":"2 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"80","player2":"81","score1":"6 6 ","score2":"0 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"82","player2":"83","score1":"6 1 6 ","score2":"4 6 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"84","player2":"85","score1":"6 6 ","score2":"2 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"86","player2":"87","score1":"3 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"88","player2":"89","score1":"6 3 6 ","score2":"1 6 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"90","player2":"91","score1":"6 7 3 ","score2":"7 5 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"92","player2":"93","score1":"6 4 3 ","score2":"4 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"94","player2":"95","score1":"2 0 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"96","player2":"97","score1":"4 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"98","player2":"99","score1":"6 6 ","score2":"1 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"100","player2":"101","score1":"7 6 1 ","score2":"5 7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"102","player2":"103","score1":"6 0 7 ","score2":"1 6 6 ","winner":"0"
+},
+{
+"extraText":"","player1":"104","player2":"105","score1":"6 6 ","score2":"1 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"106","player2":"107","score1":"3 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"108","player2":"109","score1":"7 2 4 ","score2":"6 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"110","player2":"111","score1":"3 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"112","player2":"113","score1":"5 0 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"114","player2":"115","score1":"5 2 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"116","player2":"117","score1":"6 6 ","score2":"3 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"118","player2":"119","score1":"1 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"120","player2":"121","score1":"6 4 4 ","score2":"2 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"122","player2":"123","score1":"6 6 ","score2":"2 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"124","player2":"125","score1":"0 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"RETIRED","player1":"126","player2":"127","score1":"2 0 ","score2":"6 3 ","winner":"1"
+}
+],
+[
+{
+"extraText":"","player1":"0","player2":"2","score1":"7 6 ","score2":"6 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"5","player2":"6","score1":"6 6 ","score2":"2 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"8","player2":"10","score1":"6 6 ","score2":"1 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"12","player2":"15","score1":"3 2 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"16","player2":"19","score1":"5 7 6 ","score2":"7 6 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"20","player2":"23","score1":"3 7 2 ","score2":"6 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"24","player2":"26","score1":"5 4 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"29","player2":"30","score1":"6 6 ","score2":"3 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"32","player2":"34","score1":"6 6 ","score2":"4 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"37","player2":"38","score1":"5 1 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"40","player2":"43","score1":"6 6 ","score2":"3 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"44","player2":"47","score1":"1 2 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"49","player2":"51","score1":"6 3 1 ","score2":"2 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"53","player2":"54","score1":"6 5 6 ","score2":"1 7 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"56","player2":"58","score1":"6 6 6 ","score2":"3 7 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"60","player2":"62","score1":"7 5 3 ","score2":"5 7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"64","player2":"67","score1":"6 6 ","score2":"3 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"69","player2":"71","score1":"4 7 4 ","score2":"6 5 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"72","player2":"75","score1":"6 7 ","score2":"3 6 ","winner":"0"
+},
+{
+"extraText":"","player1":"77","player2":"79","score1":"7 6 6 ","score2":"6 7 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"80","player2":"82","score1":"0 6 6 ","score2":"6 4 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"84","player2":"87","score1":"1 1 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"88","player2":"91","score1":"6 6 ","score2":"1 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"93","player2":"95","score1":"6 5 7 ","score2":"4 7 6 ","winner":"0"
+},
+{
+"extraText":"","player1":"97","player2":"98","score1":"6 2 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"101","player2":"102","score1":"2 6 6 ","score2":"6 2 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"104","player2":"107","score1":"7 6 ","score2":"5 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"109","player2":"111","score1":"5 2 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"113","player2":"115","score1":"6 4 7 ","score2":"2 6 5 ","winner":"0"
+},
+{
+"extraText":"","player1":"116","player2":"119","score1":"4 0 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"121","player2":"122","score1":"4 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"125","player2":"127","score1":"3 4 ","score2":"6 6 ","winner":"1"
+}
+],
+[
+{
+"extraText":"","player1":"0","player2":"5","score1":"3 7 6 ","score2":"6 5 0 ","winner":"0"
+},
+{
+"extraText":"","player1":"8","player2":"15","score1":"6 6 ","score2":"3 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"16","player2":"23","score1":"3 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"26","player2":"29","score1":"6 3 6 ","score2":"2 6 0 ","winner":"0"
+},
+{
+"extraText":"","player1":"32","player2":"38","score1":"2 3 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"40","player2":"47","score1":"3 5 ","score2":"6 7 ","winner":"1"
+},
+{
+"extraText":"","player1":"51","player2":"53","score1":"6 5 6 ","score2":"1 7 2 ","winner":"0"
+},
+{
+"extraText":"","player1":"56","player2":"62","score1":"7 4 6 ","score2":"6 6 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"64","player2":"71","score1":"6 6 ","score2":"2 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"72","player2":"77","score1":"6 3 ","score2":"7 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"80","player2":"87","score1":"5 6 1 ","score2":"7 2 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"88","player2":"93","score1":"1 6 6 ","score2":"6 1 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"98","player2":"101","score1":"1 6 6 ","score2":"6 3 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"104","player2":"111","score1":"7 2 6 ","score2":"5 6 4 ","winner":"0"
+},
+{
+"extraText":"","player1":"113","player2":"119","score1":"4 6 5 ","score2":"6 4 7 ","winner":"1"
+},
+{
+"extraText":"","player1":"122","player2":"127","score1":"2 3 ","score2":"6 6 ","winner":"1"
+}
+],
+[
+{
+"extraText":"","player1":"0","player2":"8","score1":"6 6 ","score2":"3 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"23","player2":"26","score1":"6 6 ","score2":"2 1 ","winner":"0"
+},
+{
+"extraText":"","player1":"38","player2":"47","score1":"7 4 6 ","score2":"6 6 1 ","winner":"0"
+},
+{
+"extraText":"WITHDRAWN","player1":"51","player2":"56","score1":" ","score2":" ","winner":"0"
+},
+{
+"extraText":"","player1":"64","player2":"77","score1":"7 6 ","score2":"5 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"87","player2":"88","score1":"4 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"98","player2":"104","score1":"3 4 ","score2":"6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"119","player2":"127","score1":"7 5 2 ","score2":"6 7 6 ","winner":"1"
+}
+],
+[
+{
+"extraText":"","player1":"0","player2":"23","score1":"6 1 6 ","score2":"2 6 3 ","winner":"0"
+},
+{
+"extraText":"","player1":"38","player2":"51","score1":"3 7 4 ","score2":"6 5 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"64","player2":"88","score1":"6 4 2 ","score2":"4 6 6 ","winner":"1"
+},
+{
+"extraText":"","player1":"104","player2":"127","score1":"3 6 4 ","score2":"6 4 6 ","winner":"1"
+}
+],
+[
+{
+"extraText":"","player1":"0","player2":"51","score1":"","score2":"","winner":"-1"
+},
+{
+"extraText":"","player1":"88","player2":"127","score1":"","score2":"","winner":"-1"
+}
+],
+[
+{
+"extraText":"","player1":"","player2":"","score1":"","score2":"","winner":"-1"
+}
+]
+],
+"titles":[
+"ROUND 1",
+"ROUND 2",
+"ROUND 3",
+"ROUND 4",
+"QUARTER FINAL",
+"SEMI-FINAL",
+"FINAL"
+]
+}

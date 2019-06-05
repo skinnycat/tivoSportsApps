@@ -1,0 +1,29 @@
+{
+"title" : "DRIVERS' STANDINGS",
+"ds" : [
+{"rank": "1","name": "N Rosberg","team": "MER","pts": "141"},
+{"rank": "2","name": "L Hamilton","team": "MER","pts": "117"},
+{"rank": "3","name": "S Vettel","team": "FER","pts": "96"},
+{"rank": "4","name": "K Raikkonen","team": "FER","pts": "81"},
+{"rank": "5","name": "D Ricciardo","team": "RBR","pts": "78"},
+{"rank": "6","name": "M Verstappen","team": "RBR","pts": "54"},
+{"rank": "7","name": "V Bottas","team": "WIL","pts": "52"},
+{"rank": "8","name": "S Perez","team": "FOR","pts": "39"},
+{"rank": "9","name": "F Massa","team": "WIL","pts": "38"},
+{"rank": "10","name": "D Kvyat","team": "TOR","pts": "22"},
+{"rank": "11","name": "R Grosjean","team": "HAA","pts": "22"},
+{"rank": "12","name": "N Hulkenberg","team": "FOR","pts": "20"},
+{"rank": "13","name": "F Alonso","team": "MCL","pts": "18"},
+{"rank": "14","name": "C Sainz","team": "TOR","pts": "18"},
+{"rank": "15","name": "K Magnussen","team": "REN","pts": "6"},
+{"rank": "16","name": "J Button","team": "MCL","pts": "5"},
+{"rank": "17","name": "S Vandoorne","team": "MCL","pts": "1"},
+{"rank": "18","name": "E Gutierrez","team": "HAA","pts": "0"},
+{"rank": "19","name": "J Palmer","team": "REN","pts": "0"},
+{"rank": "20","name": "M Ericsson","team": "SAU","pts": "0"},
+{"rank": "21","name": "F Nasr","team": "SAU","pts": "0"},
+{"rank": "22","name": "P Wehrlein","team": "MAR","pts": "0"},
+{"rank": "23","name": "R Haryanto","team": "MAR","pts": "0"}
+]
+}
+

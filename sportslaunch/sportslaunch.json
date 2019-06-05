@@ -1,0 +1,61 @@
+{
+    "channels": [
+        {
+            "id": "SS1",
+            "link": "../app1/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "SS2",
+            "link": "../app2/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "SS3",
+            "link": "../app4/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "SS4",
+            "link": "../app5/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "SS5",
+            "link": "../app6/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "SSN",
+            "link": ""
+        },
+        {
+            "id": "SF1",
+            "link": "../app8/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "1HD",
+            "link": "../gen1/f1app.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "2HD",
+            "link": "../gen2/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "3HD",
+            "link": "../gen3/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "4HD",
+            "link": "../gen4/sportsapp.html?ishd=1&vdl.dax.test=true"
+        },
+        {
+            "id": "5HD",
+            "link": ""
+        },
+        {
+            "id": "NHD",
+            "link": ""
+        },
+        {
+            "id": "FHD",
+            "link": ""
+        }
+    ],
+    "schedule": "There are currently no Interactive events on this channel. Red button events coming up:\n\nFri 13th Nov - Brazil GP - Practice 1 - SSF1/F1HD - 11.45am\n\nFri 13th Nov - Brazil GP - Practice 2 - SSF1/F1HD - 3.45pm\n\nFri 13th Nov - Euro 2016 Playoffs - SS1/HD1 - 7.45pm\n\nSat 14th Nov - Brazil GP - Practice 3 - SSF1/F1HD - 12.45pm\n\nSat 14th Nov - Brazil GP - Qualifying - SSF1/F1HD - 3pm\n\nSat 14th Nov - Euro 2016 Playoffs - SS5/HD5 - 7.45pm\n\nEvents can be subject to change at short notice."
+}

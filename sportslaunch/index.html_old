@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Virgin DEV</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            color: #ffffff;
+            background-color: #000000;
+            font-family: sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        #mainContainer {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+        }
+        
+        a {
+            text-decoration: none
+        }
+        
+        a:hover {
+            text-decoration: underline
+        }
+        
+        .red {
+            color: red
+        }
+        
+        .yellow {
+            color: yellow
+        }
+        
+        .blue {
+            color: blue
+        }
+        
+        .green {
+            color: green
+        }
+    </style>
+
+</head>
+
+<body onload="onloading()" bgcolor="#E6E6FA">
+
+    <script language="JavaScript">
+        var baseURL = "http://sit-tkestrel.interactive.sky.com/uatcontent/tivoextra/";
+
+        function onloading() {
+            document.onkeydown = function (event) {
+
+                switch (event.keyCode) {
+                    case 49:
+                    window.open(baseURL + "app1/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 50:
+                    window.open(baseURL + "app2/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 51:
+                    window.open(baseURL + "app4/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 52:
+                    window.open(baseURL + "app5/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 53:
+                    window.open(baseURL + "app6/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 54:
+                    window.open(baseURL + "app8/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 55:
+                    window.open(baseURL + "gen1/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 56:
+                    window.open(baseURL + "gen2/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 57:
+                    window.open(baseURL + "gen3/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 48:
+                    window.open(baseURL + "gen4/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1", "_self");
+                    break;
+                case 403: //Red Button
+                    window.open("splash.html", "_self");
+                    break;
+                case 404: //Green Button
+                    window.open("../channelManagerExample.html", "_self");
+                    break;
+                case 405: //Yellow Button
+                    window.open(baseURL + "app1/sportsapp.html?ishd=1&vdl.dax.test=true", "_self");
+                    break;
+                case 406: //Blue Button
+                    window.open("prodmenu.html", "_self");
+                    break;
+                }
+
+
+                document.getElementById("keyCodeBox").innerHTML = event.keyCode;
+
+            }
+
+        }
+    </script>
+    <div id="mainContainer">
+        <center>
+
+            <H1>V6.1 07/06/2016</H1>
+            <H1>Virgin Media Tivo Dev Launch Site </H1>
+            <BR>
+            <p>Please use the number keys to select a menu item..</p>
+            <BR>
+        </center>
+        <p>Key Code: <span id="keyCodeBox"></span>
+            <br>
+            <br>
+        </p>
+
+        <UL>
+            <LI><a href="app1/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">1) App 1 Football</a></LI>
+            <LI><a href="app2/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">2) App 2 US Open Tennis</a></LI>
+            <LI><a href="app4/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">3) App 4 Football 2</a></LI>
+            <LI><a href="app5/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">4) App 5 Heineken Cup Rugby</a></LI>
+            <LI><a href="app6/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">5) App 6 Tennis Masters</a></LI>
+            <LI><a href="app8/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">6) App 8 Formula 1</a></LI>
+            <LI><a href="gen1/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">7) Gen 1</a></LI>
+            <LI><a href="gen2/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">8) Gen 2</a></LI>
+            <LI><a href="gen3/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">9) Gen 3</a></LI>
+            <LI><a href="gen4/sportsapp.html?ishd=1&vdl.dax.test=true&channelID=SS1">0) Gen 4</a></LI>
+            <LI><a href="splash.html"><span class="red">RED)</span> Splash Screen Viewer</a></LI>
+            <LI><a href="../channelManagerExample.html"><span class="green">GREEN)</span> Channel Manager Example</a></LI>
+            <LI><a href="app1/sportsapp.html?ishd=1&vdl.dax.test=true"><span class="yellow">YELLOW)</span> APP 1 DIRECT LINK</a></LI>
+            <LI><a href="prodmenu.html"><span class="blue">BLUE)</span> PRODUCTION LAUNCH Menu</a></LI>
+        </UL>
+    </div>
+
+</body>
+
+</html>

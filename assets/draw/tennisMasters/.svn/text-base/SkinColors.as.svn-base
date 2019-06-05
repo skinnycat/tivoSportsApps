@@ -1,0 +1,19 @@
+/**
+ * ...
+ * @author 
+ */
+import com.sky.tivo.utils.SafeColours;
+ 
+class SkinColors
+{
+	public static var MATCH_COLOR_LOSER_LEFT:TextFormat = new TextFormat( 'Arial', 20, 0x606060 /*0x0F0B0A0*/, true );	
+	public static var MATCH_COLOR_WINNER_LEFT:TextFormat = new TextFormat( 'Arial', 20, SafeColours.BLACK, true );	
+	public static var MATCH_COLOR_SCORE_RIGHT:TextFormat = new TextFormat( 'Arial', 20, SafeColours.BLACK, true, false, false, null, null, 'right' );		
+	public static var MATCH_EXTRA_CENTER:TextFormat = new TextFormat( 'Arial', 20, SafeColours.WHITE, false, false, false, null, null, 'center' );
+	
+	
+	public function SkinColors() 
+	{
+		
+	}	
+}

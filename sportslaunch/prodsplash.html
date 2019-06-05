@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Virgin DEV</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            color: black;
+            background-color: wheat;
+            font-family: sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        #mainContainer {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        
+        .row {
+            width: 1280px;
+            height: 180px;
+        }
+        
+        .splashcontainer {
+            float: left;
+            width: 300px;
+            height: 160px;
+            margin: 10px;
+            text-align: center;
+            font-size: 10pt;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        
+        img {
+            height: 160px;
+            width: 300px;
+        }
+    </style>
+
+</head>
+
+<body onload="onload()" bgcolor="#E6E6FA">
+
+    <script language="JavaScript">
+        function onload() {
+            document.onkeydown = function (event) {
+
+                switch (event.keyCode) {
+                case 27:
+                    break;
+                }
+
+
+                document.getElementById("keyCodeBox").innerHTML = event.keyCode;
+            }
+            var images = document.getElementsByClassName('splashimage');
+
+            for (var i = 0; i < images.length; i++) {
+                images[i].src += '?rand=' + Math.floor(Math.random() * 10000);
+            }
+
+        }
+    </script>
+
+    <div id="maincontainer">
+        <div class="row">
+            <div class="splashcontainer">app1<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app1/splash.jpg"></div>
+            <div class="splashcontainer">app2<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app2/splash.jpg"></div>
+            <div class="splashcontainer">app4<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app4/splash.jpg"></div>
+            <div class="splashcontainer">app5<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app5/splash.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="splashcontainer">app6<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app6/splash.jpg"></div>
+            <div class="splashcontainer">app8<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/app8/splash.jpg"></div>
+            <div class="splashcontainer">gen1<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/gen1/splash.jpg"></div>
+            <div class="splashcontainer">gen2<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/gen2/splash.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="splashcontainer">gen3<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/gen3/splash.jpg"></div>
+            <div class="splashcontainer">gen4<img class="splashimage" src="http://tkestrel.interactive.sky.com/prodcontent/tivoextra/gen4/splash.jpg"></div>
+            <div class="splashcontainer"></div>
+            <div class="splashcontainer"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

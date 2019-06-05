@@ -1,0 +1,1111 @@
+@font-face {
+    font-family: skyFontReg;
+    src: url(../common/Sky_Reg.ttf)
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    font-family: skyFontReg;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #000;
+    height: 720px;
+    overflow: hidden;
+    width: 1280px
+}
+
+.preload-images {
+    left: -9999px;
+    position: absolute;
+    top: -9999px
+}
+
+div#preloader img {
+    display: block
+}
+
+#loadingAnim {
+    background: url(../assets/loading.gif);
+    height: 64px;
+    left: 608px;
+    position: absolute;
+    top: 328px;
+    visibility: hidden;
+    width: 64px;
+    z-index: 30000
+}
+
+#splashContainer {
+    height: 720px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 60000
+}
+
+#vidArea {
+    height: 720px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    z-index: 0
+}
+
+#vidBroadcast {
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+#testArea {
+    color: #FFF;
+    height: 720px;
+    width: 1280px
+}
+
+#debugArea {
+    color: #FFF;
+    height: 60px;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    visibility: hidden;
+    width: 400px;
+    z-index: 65535
+}
+
+#infoDiv {
+    border: 2px solid red;
+    color: #fff;
+    height: 300px;
+    left: 600px;
+    position: absolute;
+    width: 300px;
+    z-index: 500
+}
+
+#target {
+    border: 5px solid red;
+    border-radius: 10px;
+    height: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 5
+}
+
+#ticker {
+    border: none;
+    box-sizing: border-box;
+    left: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap
+}
+
+#ticker #tickerText {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: skyFontReg;
+    font-size: 14pt;
+    font-weight: 700;
+    line-height: 33px;
+    text-indent: 0;
+    vertical-align: middle
+}
+
+#ticker #tickerText.tickerStart {
+    animation: ticker 25s linear infinite
+}
+
+#alertStrap {
+    height: 35px;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 20
+}
+
+#alertStrap #alertText {
+    font-family: skyFontReg;
+    font-size: 14pt;
+    font-weight: 700;
+    left: 216px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 830px
+}
+
+#iMenuContainer {
+    height: 326px;
+    left: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 328px;
+    width: 260px;
+    z-index: 10
+}
+
+#iMenuTitle {
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+    left: 35px;
+    position: absolute;
+    top: 30px;
+    width: 200px
+}
+
+.iMenu {
+    -moz-box-sizing: border-box;
+    -moz-transition: 0 .5s ease;
+    -ms-box-sizing: border-box;
+    -ms-transition: 0 .5s ease;
+    -webkit-box-sizing: border-box;
+    -webkit-transition: 0 .5s ease;
+    background-image: url(../assets/imenubox.png);
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: hidden;
+    padding: 0;
+    transition: transform .5s ease
+}
+
+.iMenu.opened {
+    -moz-transform: translate(0, 0%);
+    -ms-transform: translate(0, 0%);
+    -webkit-transform: translate(0, 0%);
+    transform: translate(0, 0%)
+}
+
+.iMenu.closed {
+    -moz-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%)
+}
+
+#iMenuButton {
+    background-image: url(../assets/imenubutton.png);
+    height: 28px;
+    position: absolute;
+    width: 45px;
+    z-index: 999
+}
+
+#audioIcon {
+    background-image: url(../assets/audio.png);
+    height: 28px;
+    position: absolute;
+    visibility: hidden;
+    width: 51px;
+    z-index: 1000
+}
+
+#audioStream {
+    background-color: #333;
+    color: #FFF;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: 32px;
+    z-index: 1000
+}
+
+#iMenuClose,
+#iMenuHint {
+    background-image: url(../assets/strap.png);
+    height: 33px;
+    padding: 0 12px;
+    position: absolute;
+    z-index: 999
+}
+
+#iMenuHint span,
+#iMenuClose span {
+    color: #fff;
+    line-height: 33px;
+    vertical-align: middle
+}
+
+#iMenuHint span {
+    width: 700px
+}
+
+#iMenuClose span {
+    font-weight: 700;
+    width: 150px
+}
+
+#iMenuStrap,
+#messageStrap {
+    background-image: url(../assets/strap.png);
+    color: #FFF;
+    font-size: 14pt;
+    height: 33px;
+    left: 0;
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    top: 652px;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 15
+}
+
+.iMenu ul {
+    border: none;
+    left: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 59px;
+    width: 223px
+}
+
+.iMenu li {
+    border: 0;
+    height: 34px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 224px
+}
+
+.iMenu li div.listItem.selected {
+    background-image: url(../assets/imenuhighlight.png);
+    color: #000;
+    position: absolute;
+    z-index: 20
+}
+
+.iMenu li div.listItem {
+    color: #fff;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+    position: absolute;
+    vertical-align: middle;
+    width: 225px;
+    z-index: 20
+}
+
+#helpContainer {
+    background-color: #000;
+    border-color: #FFF;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 800px;
+    z-index: 500
+}
+
+#helpTextArea {
+    background-color: #000;
+    height: 320px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 730px
+}
+
+#helpTextArea span {
+    color: #FFF;
+    font-size: 14pt;
+    font-weight: 700
+}
+
+figure.helpArrow {
+    background-color: #000;
+    height: 30px;
+    left: 740px;
+    position: absolute;
+    width: 30px;
+    z-index: 501
+}
+
+#helpUpArrow {
+    background-image: url(../assets/uparrow.png);
+    top: 10px
+}
+
+#helpDownArrow {
+    background-image: url(../assets/downarrow.png);
+    top: 330px
+}
+
+#drawContainer {
+    background-image: url(../assets/draw/tennisMasters/draw-bg.jpg);
+    height: 720px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 9
+}
+
+#scrollBarContainer {
+    height: 496px;
+    left: 47px;
+    position: fixed;
+    top: 104px;
+    visibility: visible;
+    width: 54px
+}
+
+#scrollBarContainer .drawScrollBar {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 0;
+    width: 50px
+}
+
+#drawCompTitle {
+    color: #FFF;
+    font-family: skyFontReg;
+    font-size: 22pt;
+    font-weight: bolder;
+    height: 60px;
+    left: 367px;
+    position: fixed;
+    text-align: center;
+    top: 10px;
+    width: 600px
+}
+
+.drawRoundTitle {
+    font-family: skyFontReg;
+    font-size: 20pt;
+    height: 88px;
+    text-align: center;
+    vertical-align: middle;
+    width: 330px
+}
+
+.drawRoundColumn {
+    position: fixed;
+    visibility: visible;
+    width: 330px
+}
+
+.drawRoundColumn.drawColumn1 {
+    height: 536px;
+    left: 127px;
+    top: 102px
+}
+
+.drawRoundColumn.drawColumn2 {
+    height: 385px;
+    left: 493px;
+    top: 180px
+}
+
+.drawRoundColumn.drawColumn3 {
+    height: 90px;
+    left: 863px;
+    top: 315px
+}
+
+.drawColumnTitle {
+    color: #FFF;
+    font-family: skyFontReg;
+    font-size: 21pt;
+    font-weight: bolder;
+    height: 60px;
+    text-align: center;
+    width: 330px
+}
+
+#drawColumnTitle1 {
+    left: 127px;
+    position: fixed;
+    top: 42px
+}
+
+#drawColumnTitle2 {
+    left: 493px;
+    position: fixed;
+    top: 120px
+}
+
+#drawColumnTitle3 {
+    left: 863px;
+    position: fixed;
+    top: 255px
+}
+
+.drawGameBox {
+    height: 44px;
+    position: relative;
+    width: 330px
+}
+
+div.drawRoundColumn.drawColumn1 div.drawGameBox:nth-child(-n+8):nth-child(odd) {
+    margin-bottom: 0px;
+}
+
+div.drawRoundColumn.drawColumn1 div.drawGameBox:nth-child(-n+8):nth-child(even) {
+    margin-bottom: 62px;
+}
+
+div.drawRoundColumn.drawColumn2 div.drawGameBox:nth-child(n):nth-child(-n+4):nth-child(odd) {
+    margin-bottom: 0;
+}
+
+div.drawRoundColumn.drawColumn2 div.drawGameBox:nth-child(n):nth-child(-n+4):nth-child(even) {
+    margin-bottom: 210px;
+}
+
+div.drawRoundColumn.drawColumn3 div.drawGameBox:nth-child(n):nth-child(-n+2):nth-child(odd) {}
+
+div.drawRoundColumn.drawColumn3 div.drawGameBox:nth-child(n):nth-child(-n+2):nth-child(even) {}
+
+.drawPlayerName {
+    color: #000;
+    float: left;
+    height: 44px;
+    overflow: hidden;
+    text-align: left;
+    width: 240px
+}
+
+.drawPlayerScore {
+    color: #000;
+    float: right;
+    height: 44px;
+    text-align: right;
+    width: 90px
+}
+
+.drawPlayerName span,
+.drawPlayerScore span {
+    color: #000;
+    font-weight: 700;
+    line-height: 44px;
+    vertical-align: middle
+}
+
+.drawPlayerName span {
+    letter-spacing: 1px;
+    padding-left: 8px;
+    text-align: left
+}
+
+.drawPlayerScore span {
+    letter-spacing: 2px;
+    padding-right: 8px;
+    text-align: right
+}
+
+.drawExtraText {
+    color: #FFF;
+    font-family: skyFontReg;
+    font-size: 14pt;
+    font-weight: bolder;
+    height: 44px;
+    line-height: 44px;
+    position: fixed;
+    text-align: center;
+    width: 330px
+}
+
+.drawExtraText span {
+    text-align: center
+}
+
+#drawArrowUp {
+    background: url(../assets/draw/arrow-up.png);
+    height: 25px;
+    left: 52px;
+    position: fixed;
+    top: 71px;
+    visibility: hidden;
+    width: 38px
+}
+
+#drawArrowDown {
+    background: url(../assets/draw/arrow-down.png);
+    height: 25px;
+    left: 52px;
+    position: fixed;
+    top: 610px;
+    visibility: hidden;
+    width: 38px
+}
+
+#drawArrowLeft {
+    background: url(../assets/draw/arrow-left.png);
+    height: 38px;
+    left: 978px;
+    position: fixed;
+    top: 600px;
+    visibility: hidden;
+    width: 31px
+}
+
+#drawArrowRight {
+    background: url(../assets/draw/arrow-right.png);
+    height: 38px;
+    left: 1150px;
+    position: fixed;
+    top: 600px;
+    visibility: hidden;
+    width: 31px
+}
+
+.drawExtraText.drawExtraText1 {
+    left: 127px;
+    top: 190px
+}
+
+.drawExtraText.drawExtraText2 {
+    left: 127px;
+    top: 341px
+}
+
+.drawExtraText.drawExtraText3 {
+    left: 127px;
+    top: 491px
+}
+
+.drawExtraText.drawExtraText4 {
+    left: 127px;
+    top: 640px
+}
+
+.drawExtraText.drawExtraText5 {
+    left: 492px;
+    top: 267px
+}
+
+.drawExtraText.drawExtraText6 {
+    left: 492px;
+    top: 567px
+}
+
+.drawExtraText.drawExtraText7 {
+    left: 865px;
+    top: 404px
+}
+
+#roundsText {
+    height: 60px;
+    left: 1015px;
+    position: fixed;
+    top: 604px;
+    width: 200px
+}
+
+#roundsText span {
+    color: #FFF;
+    font-family: skyFontReg;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center
+}
+
+
+/******************************
+ * Generic Stats styling      *
+ ******************************/
+
+div #genStatsContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+    background: url("../assets/stats/tennisUSOpen/stats_bg.jpg");
+    visibility: hidden;
+    z-index: 9;
+    font-weight: bold;
+}
+
+#genStatsContainer #genStatsTabBar {
+    position: absolute;
+    top: 58px;
+    left: 120px;
+    width: 1050px;
+    height: 33px;
+}
+
+.genStatsTab {
+    width: 190px;
+    height: 36px;
+    margin-right: 0px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 18pt;
+}
+
+.genStatsTab:first-child {
+    margin-right: 80px;
+}
+
+#genStatsMain {
+    position: fixed;
+    top: 127px;
+    left: 45px;
+    width: 355px;
+    height: 509px;
+}
+
+#genStatsMain ul {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    list-style-type: none;
+    width: auto;
+}
+
+#genStatsMain li {
+    position: relative;
+    list-style-type: none;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 32px;
+    width: 353px;
+}
+
+#genStatsMain div.genStatsMenuBar,
+#genStatsMain div.blankItem {
+    width: 353px;
+    height: 32px;
+    vertical-align: middle;
+    line-height: 32px;
+    padding-left: 5px;
+}
+
+#genStatsMain div.genStatsMenuBar {
+    background: url(../assets/stats/tennisUSOpen/strap_simple_off.png);
+    color: white;
+}
+
+#genStatsMain div.genStatsMenuBar.selected {
+    background: url(../assets/stats/tennisUSOpen/strap_simple_on.png);
+    color: black;
+}
+
+#genStatsMain div.blankItem {
+    background: url(../assets/stats/tennisUSOpen/strap_simple_off.png);
+    color: white;
+}
+
+#genStatsSub {
+    position: fixed;
+    background-color: #333333;
+    background-blend-mode: soft-light;
+    top: 165px;
+    left: 440px;
+    width: 782px;
+    height: 440px;
+    visibility: hidden;
+    z-index: 25;
+}
+
+
+/* Story Page */
+
+div#genStatsTitle {
+    position: absolute;
+    width: 355px;
+    height: 36px;
+    color: black;
+    line-height: 33px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+figure#genStatsStoryImage,
+figure#genStatsProfileImage {
+    position: absolute;
+    width: 256px;
+    height: 128px;
+    top: 36px;
+    left: 48px;
+}
+
+div#genStatsScrollArea {
+    position: absolute;
+    width: 355px;
+    color: white;
+    overflow: hidden;
+}
+
+div#genStatsScrollArea.story {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 307px;
+    top: 170px;
+    left: 0px;
+}
+
+div#genStatsScrollArea.table1,
+div#genStatsScrollArea.table3,
+div#genStatsScrollArea.table4,
+div#genStatsScrollArea.table5,
+div#genStatsScrollArea.table6 {
+    height: 412px;
+    top: 69px;
+    left: 0px;
+}
+
+div#genStatsScrollArea.table6 {
+    height: 448px;
+    top: 33px;
+    left: 0px;
+}
+
+div#genStatsFooter {
+    position: absolute;
+    top: 481px;
+    left: 0px;
+    height: 36px;
+    width: 355px;
+}
+
+div#genStatsStoryBackupTxt {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    color: black;
+    line-height: 33px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+figure#downUpArrow {
+    position: absolute;
+    top: 7px;
+    left: 315px;
+    height: 15px;
+    width: 30px;
+    line-height: 33px;
+    background: url(../assets/stats/tennisUSOpen/downupblack.png);
+}
+
+
+/* table1 */
+
+div#genStatsHeaderContainer {
+    position: absolute;
+    top: 36px;
+    left: 1px;
+    width: 353px;
+    height: 32px;
+    background: url(../assets/stats/tennisUSOpen/strap_table_1.png);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+div#genStatsSubHeader {
+    width: 353px;
+    height: 32px;
+    background: url(../assets/stats/tennisUSOpen/strap_table_1.png);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+div#genStatsScrollArea.profile {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 307px;
+    top: 170px;
+    left: 0px;
+}
+
+div#genStatsScrollArea.profile .tableRow {
+    width: 353px;
+    height: 32px;
+    background: url(../assets/stats/tennisUSOpen/profile_strap.png);
+    color: white;
+    text-align: center;
+    line-height: 32px;
+}
+
+div#genStatsScrollArea.profile .tableRow .leftCol {
+    padding-left: 8px;
+    position: relative;
+    width: 175px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.profile .tableRow .rightCol {
+    padding-right: 8px;
+    position: relative;
+    width: 175px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea div.scrollText {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+div#genStatsScrollArea.table1 .tableRow,
+div#genStatsScrollArea.table3 .tableRow,
+div#genStatsScrollArea.table4 .tableRow,
+div#genStatsScrollArea.table5 .tableRow {
+    width: 353px;
+    height: 32px;
+    background: url(../assets/stats/tennisUSOpen/rankings_strap.png);
+    color: white;
+    text-align: center;
+    line-height: 32px;
+}
+
+div#genStatsScrollArea.table6 .tableRow {
+    width: 353px;
+    height: 32px;
+    background: url(../assets/stats/tennisUSOpen/rankings_strap.png);
+    color: white;
+    text-align: center;
+    line-height: 32px;
+}
+
+div#genStatsHeaderContainer.table1 .leftCol,
+div#genStatsScrollArea.table1 .tableRow .leftCol {
+    position: relative;
+    width: 60px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table1 .midCol,
+div#genStatsScrollArea.table1 .tableRow .midCol {
+    position: relative;
+    width: 202px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table1 .rightCol,
+div#genStatsScrollArea.table1 .tableRow .rightCol {
+    position: relative;
+    width: 91px;
+    height: 32px;
+    float: left;
+}
+
+div.table2DataRow {
+    width: 782px;
+    height: 26px;
+    margin-bottom: 5px;
+}
+
+div.table2DataRow .leftCol {
+    background: url(../assets/stats/tennisUSOpen/left_strap_table2.png);
+    padding-left: 8px;
+    height: 26px;
+    width: 390px;
+    line-height: 26px;
+    text-align: left;
+    float: left;
+    color: white;
+}
+
+div.table2DataRow .rightCol {
+    padding-left: 8px;
+    background: url(../assets/stats/tennisUSOpen/right_strap_table2.png);
+    width: 390px;
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+    float: right;
+    color: black;
+}
+
+div#genStatsScrollArea.table3 .tableRow .leftCol {
+    position: relative;
+    width: 90px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.table3 .tableRow .midCol {
+    position: relative;
+    width: 173px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.table3 .tableRow .rightCol {
+    position: relative;
+    width: 90px;
+    height: 32px;
+    float: left;
+}
+
+div.table3Col0 {
+    position: relative;
+    width: 91px;
+    height: 32px;
+    float: left;
+}
+
+div.table3Col1,
+div.table3Col2,
+div.table3Col3,
+div.table3Col4,
+div.table3Col5 {
+    position: relative;
+    width: 50px;
+    height: 32px;
+    float: left;
+}
+
+div.table3Col6,
+div.table3Col7,
+div.table3Col8 {
+    position: relative;
+    width: 83px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsMidHeaderContainer.table3 {
+    position: relative;
+    width: 353px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    background: url(../assets/stats/tennisUSOpen/strap_group_table_6.png);
+}
+
+div.genStatsBottomHeader {
+    position: relative;
+    width: 353px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    background: url(../assets/stats/tennisUSOpen/strap_table_1.png);
+}
+
+div#genStatsScrollArea.table3 #genStatsMessageBox {
+    width: 353px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+
+div#genStatsHeaderContainer.table4 .leftCol,
+div#genStatsScrollArea.table4 .tableRow .leftCol {
+    position: relative;
+    width: 120px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table4 .rightCol,
+div#genStatsScrollArea.table4 .tableRow .rightCol,
+{
+    position: relative;
+    width: 233px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table5 .leftCol,
+div#genStatsScrollArea.table5 .tableRow .leftCol {
+    position: relative;
+    width: 60px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table5 .midCol,
+div#genStatsScrollArea.table5 .tableRow .midCol {
+    position: relative;
+    width: 202px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table5 .rightCol,
+div#genStatsScrollArea.table5 .tableRow .rightCol {
+    position: relative;
+    width: 45px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsHeaderContainer.table5 .right2Col,
+div#genStatsScrollArea.table5 .tableRow .right2Col {
+    position: relative;
+    width: 45px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.table6 .tableRow .leftCol {
+    position: relative;
+    width: 90px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.table6 .tableRow .midCol {
+    position: relative;
+    width: 173px;
+    height: 32px;
+    float: left;
+}
+
+div#genStatsScrollArea.table6 .tableRow .rightCol {
+    position: relative;
+    width: 90px;
+    height: 32px;
+    float: left;
+}
+
+div.genStatsGroupHeader.table6 {
+    position: relative;
+    width: 353px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    background: url(../assets/stats/tennisUSOpen/strap_group_table_6.png);
+}

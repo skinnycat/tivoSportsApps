@@ -1,0 +1,21 @@
+{ 
+  "x" : "106",
+  "y" : "652",
+  "launchMenu" : "MAINMENU",
+  "menu" : [ 
+             { "id" : "MAINMENU",
+               "item" : [
+                           { "label" : "STATS", "hint" : "PRESS SELECT TO VIEW STATS", "href" : "stats://TAB0" },
+                           { "label" : "DRAW", "hint" : "PRESS SELECT TO VIEW DRAW 1", "href" : "draw://DRAW0" }
+                           ,{ "label" : "HELP", "hint" : "SELECT FOR HELP", "href" : "help://" }
+                        
+                        ]
+             },
+             { "id" : "ALERTS",
+               "item" : [
+                           { "label" : "ON", "hint" : "SELECT TO TURN ON ALERTS", "href" : "alert://1" },
+                           { "label" : "OFF", "hint" : "SELECT TO TURN OFF ALERTS", "href" : "alert://0" }
+                        ]
+             }
+           ]
+}

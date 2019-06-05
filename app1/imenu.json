@@ -1,0 +1,71 @@
+{
+    "x": "106",
+    "y": "652",
+    "launchMenu": "MAINMENU",
+    "menu": [
+        {
+            "id": "MAINMENU",
+            "item": [
+                {
+                    "label": "VIDEO OPTION",
+                    "hint": "HINT TEXT VIDEO OPTION",
+                    "href": "screen://v=181&a=0"
+                },
+                {
+                    "label": "DRAW",
+                    "hint": "DRAW 1",
+                    "href": "draw://1"
+                },
+
+                {
+                    "label": "TICKER 2",
+                    "hint": "HINT TEXT TICKER 2 OPTION",
+                    "href": "ticker://1"
+                },
+                {
+                    "label": "STATS",
+                    "hint": "HINT TEXT STATS OPTION",
+                    "href": "stats://TAB0"
+                }
+                           , {
+                    "label": "HELP",
+                    "hint": "SELECT FOR HELP",
+                    "href": "help://"
+                }
+
+                        ]
+             },
+        {
+            "id": "SUBMENU",
+            "item": [
+                {
+                    "label": "LINKS MENU",
+                    "hint": "HINT TEXT LINKS MENU OPTION.",
+                    "href": "stb://ACTION_LINK_MENU"
+                },
+                {
+                    "label": "TICKER 3",
+                    "hint": "HINT TEXT TICKER OPTION.",
+                    "href": "ticker://2"
+                }
+
+
+                        ]
+             },
+        {
+            "id": "ALERTS",
+            "item": [
+                {
+                    "label": "ON",
+                    "hint": "SELECT TO TURN ON ALERTS",
+                    "href": "alert://1"
+                },
+                {
+                    "label": "OFF",
+                    "hint": "SELECT TO TURN OFF ALERTS",
+                    "href": "alert://0"
+                }
+                        ]
+             }
+           ]
+}

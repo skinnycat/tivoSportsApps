@@ -1,0 +1,386 @@
+@font-face {
+    font-family: skyFontReg;
+    src: url(../common/Sky_Reg.ttf)
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    font-family: skyFontReg;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #000;
+    height: 720px;
+    overflow: hidden;
+    width: 1280px
+}
+
+.preload-images {
+    left: -9999px;
+    position: absolute;
+    top: -9999px
+}
+
+div#preloader img {
+    display: block
+}
+
+#loadingAnim {
+    background: url(../assets/loading.gif);
+    height: 64px;
+    left: 608px;
+    position: absolute;
+    top: 328px;
+    visibility: hidden;
+    width: 64px;
+    z-index: 30000
+}
+
+#splashContainer {
+    height: 720px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 60000
+}
+
+#vidArea {
+    height: 720px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    z-index: 0
+}
+
+#vidBroadcast {
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+#testArea {
+    color: #FFF;
+    height: 720px;
+    width: 1280px
+}
+
+#debugArea {
+    color: #FFF;
+    height: 60px;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    visibility: hidden;
+    width: 400px;
+    z-index: 65535
+}
+
+#infoDiv {
+    border: 2px solid red;
+    color: #fff;
+    height: 300px;
+    left: 600px;
+    position: absolute;
+    width: 300px;
+    z-index: 500
+}
+
+#target {
+    border: 5px solid red;
+    border-radius: 10px;
+    height: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 5
+}
+
+#ticker {
+    border: none;
+    box-sizing: border-box;
+    left: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap
+}
+
+#ticker #tickerText {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: skyFontReg;
+    font-size: 14pt;
+    font-weight: 700;
+    line-height: 33px;
+    text-indent: 0;
+    vertical-align: middle
+}
+
+#ticker #tickerText.tickerStart {
+    animation: ticker 25s linear infinite
+}
+
+#alertStrap {
+    height: 35px;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 20
+}
+
+#alertStrap #alertText {
+    font-family: skyFontReg;
+    font-size: 14pt;
+    font-weight: 700;
+    left: 216px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 830px
+}
+
+#iMenuContainer {
+    height: 326px;
+    left: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 328px;
+    width: 260px;
+    z-index: 10
+}
+
+#iMenuTitle {
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+    left: 35px;
+    position: absolute;
+    top: 30px;
+    width: 200px
+}
+
+.iMenu {
+    -moz-box-sizing: border-box;
+    -moz-transition: 0 .5s ease;
+    -ms-box-sizing: border-box;
+    -ms-transition: 0 .5s ease;
+    -webkit-box-sizing: border-box;
+    -webkit-transition: 0 .5s ease;
+    background-image: url(../assets/imenubox.png);
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: hidden;
+    padding: 0;
+    transition: transform .5s ease
+}
+
+.iMenu.opened {
+    -moz-transform: translate(0, 0%);
+    -ms-transform: translate(0, 0%);
+    -webkit-transform: translate(0, 0%);
+    transform: translate(0, 0%)
+}
+
+.iMenu.closed {
+    -moz-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%)
+}
+
+#iMenuButton {
+    background-image: url(../assets/imenubutton.png);
+    height: 28px;
+    position: absolute;
+    width: 51px;
+    z-index: 999
+}
+
+#audioIcon {
+    background-image: url(../assets/audio.png);
+    height: 28px;
+    position: absolute;
+    visibility: hidden;
+    width: 51px;
+    z-index: 1000
+}
+
+#audioStream {
+    background-color: #333;
+    color: #FFF;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: 32px;
+    z-index: 1000
+}
+
+#iMenuClose,
+#iMenuHint {
+    background-image: url(../assets/strap.png);
+    height: 33px;
+    padding: 0 12px;
+    position: absolute;
+    z-index: 999
+}
+
+#iMenuHint span,
+#iMenuClose span {
+    color: #fff;
+    line-height: 33px;
+    vertical-align: middle
+}
+
+#iMenuHint span {
+    width: 700px
+}
+
+#iMenuClose span {
+    font-weight: 700;
+    width: 150px
+}
+
+#iMenuStrap,
+#messageStrap {
+    background-image: url(../assets/strap.png);
+    color: #FFF;
+    font-size: 14pt;
+    height: 33px;
+    left: 0;
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    top: 652px;
+    visibility: hidden;
+    width: 1280px;
+    z-index: 15
+}
+
+.iMenu ul {
+    border: none;
+    left: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 59px;
+    width: 223px
+}
+
+.iMenu li {
+    border: 0;
+    height: 34px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 224px
+}
+
+.iMenu li div.listItem.selected {
+    background-image: url(../assets/imenuhighlight.png);
+    color: #000;
+    position: absolute;
+    z-index: 20
+}
+
+.iMenu li div.listItem {
+    color: #fff;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+    position: absolute;
+    vertical-align: middle;
+    width: 225px;
+    z-index: 20
+}
+
+#helpContainer {
+    background-color: #000;
+    border-color: #FFF;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 800px;
+    z-index: 500
+}
+
+#helpTextArea {
+    background-color: #000;
+    height: 320px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 730px
+}
+
+#helpTextArea span {
+    color: #FFF;
+    font-size: 14pt;
+    font-weight: 700
+}
+
+figure.helpArrow {
+    background-color: #000;
+    height: 30px;
+    left: 740px;
+    position: absolute;
+    width: 30px;
+    z-index: 501
+}
+
+#helpUpArrow {
+    background-image: url(../assets/uparrow.png);
+    top: 10px
+}
+
+#helpDownArrow {
+    background-image: url(../assets/downarrow.png);
+    top: 330px
+}
+
+#vdl_CmExitPopup {
+    z-index: 999999
+}
+
+.iMenu li div.ticker,
+.iMenu li div.alert {
+    height: 34px;
+    position: absolute;
+    width: 224px;
+    z-index: 21
+}
+
+.iMenu li div.ticker.ticked,
+.iMenu li div.alert.ticked {
+    background-image: url(../assets/imenutick.png);
+    background-position: 170px 8px;
+    background-repeat: no-repeat;
+    height: 34px;
+    position: absolute;
+    width: 224px;
+    z-index: 21
+}

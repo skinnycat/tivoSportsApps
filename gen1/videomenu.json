@@ -1,0 +1,18 @@
+{"videoMenu": [
+		{
+			"matrix" : { 
+			"video" : "187", 
+			"rgb" : "0xFFFFFF",
+				"option" : [
+					{ "name" : "main 1", "u" : "0", "d" : "0", "l" : "0", "r" : "0", "x" : "0", "y" : "0", "w" : "0", "h" : "0", "menuAudio" : "6", "href" : "screen://v=187&a=6", "ma" : "true" }
+				]
+			}
+		}
+  ],
+  "ma": [
+		{
+			"lab" : "in car",
+			"aid": "5"
+		}
+  ]	
+}

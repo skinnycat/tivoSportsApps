@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Channel Manager Example</title>
+
+		<!--
+		Using VM library Channel Manager Example.
+
+		When using this example, watch the dragonfly console output for any issues.
+		-->
+
+
+		<!-- include CSS & JS -->
+
+		<!-- FOR DEVELOPMENT -->
+		<link rel="stylesheet" type="text/css" href="common/assets/codelibA.css" />
+		<script type="text/javascript" src="common/codelibA.js"></script>
+
+
+		<!-- FOR LIVE -->
+		<!--
+		<link rel="stylesheet" type="text/css" href="https://content.dtv.virginmedia.com/htmlApps/codelibA/default/assets/codelibA.css" />
+		<script type="text/javascript" src="https://content.dtv.virginmedia.com/htmlApps/codelibA/default/codelibA.js"></script>
+ 		-->
+
+
+		<script type="text/javascript">
+
+			vmDtvLib.logger.setLoggingLevel(vmDtvLib.logger.LT_DEBUG);  // For development only
+
+			function doLoad() {
+				console.log("ChannelManagerExample, doLoad");
+
+				// Initialise VM's DTV Library
+				vmDtvLib.lib.init(onLibInit);
+
+
+
+				/**
+				 * Called back when the VM library has finnished initiallising.
+				 * @param {Object} status - has properties {ok: boolean, errMsg:""}
+				 * @param {Object} appConfig - Any configuration values VM pass to your application. Also includes any url parameters you pass to your app.
+				 * @param {Object} tivoClient - The tivo WDK client object
+				 */
+				function onLibInit(status, appConfig, tivoClient){
+					console.log("ChannelManagerExample, onLibInit, status.ok: " + status.ok);
+					if (status.ok) {
+						document.addEventListener('keydown', onKeyDown, false);
+
+						vmDtvLib.chanMan.init(document.getElementById("vidB"));
+
+						// to catch channelup and channeldown changes you need to watch the ChannelChangeSucceeded event
+						vmDtvLib.chanMan.videoBroadcast.addEventListener("ChannelChangeSucceeded", function(e){console.log("ChannelManagerExample, ChannelChangeSucceeded  ++++ EVENT");displayChanDetails(e.channel);});
+
+					} else {
+						console.log("ChannelManagerExample, ERROR: VM Library not initalised");
+					}
+				}
+
+				/**
+				 * Called back when the channel is bound/tuned or there was an error. When this is called back, if there is not an error, then the channel is
+				 * tuned, in the presenting state, any audio components are available and the requested audio component is playing.
+				 * @param chanId - value as passed into tuneToChannel
+				 * @param {Channel - OIPF} channel - The channel object for the tuned channel, if there is an error likely to be null
+				 * @param {vmDtvLib.error.VmError} [error] if there is an error, for details see Virgin Media TiVo STB HTML5 Library User Guide.doc
+				 */
+				function onTuned(chanId, channel, /*vmDtvLib.error.VmError*/ error) {
+					console.log("ChannelManagerExample, onTuned, chanId: " + chanId);
+					if (error){
+						//handle error;
+					}
+					displayChanDetails(channel);
+				}
+
+
+				function onExit(/*vmDtvLib.error.VmError*/ error) {
+					console.log("ChannelManagerExample, onExit");
+					if (error){
+						// handle error
+					}
+				}
+
+
+				function displayChanDetails(channel){
+					if (channel) {
+						document.getElementById("chanDetails").textContent = channel.majorChannel + " - " + channel.name + " (" + channel.networkServiceId + ")";
+						vmDtvLib.chanMan.printChannel(channel);
+					}
+				}
+
+
+				/**
+				 * Key handler for this page
+				 * @param {event} e - key event
+				 */
+				function onKeyDown(e) {
+					var key = e.keyCode;
+					console.log("ChannelManagerExample, onKeyDown, key: " + key);
+					switch (key) {
+						case vmDtvLib.keyCodes.NUM0: // 0, bind to current channel
+							vmDtvLib.chanMan.tuneToChannel(null, onTuned);
+							break;
+
+						case vmDtvLib.keyCodes.NUM1: // 1, tune to channel
+							vmDtvLib.chanMan.tuneToChannel(1520, onTuned);
+							break;
+
+						case vmDtvLib.keyCodes.NUM2: // 2, exit to channel BBC4 by VSID
+							vmDtvLib.chanMan.exitToTv(125, onExit);
+							break;
+
+						case vmDtvLib.keyCodes.NUM3: // 3, tune to channel and exit on tuner loss
+							// note dont change the channel any other way than calling tuneAndExitOnTunerLoss again
+							vmDtvLib.chanMan.tuneAndExitOnTunerLoss(1595, onTuned, onExit);
+							break;
+
+						case vmDtvLib.keyCodes.CHANNELUP:
+							vmDtvLib.chanMan.videoBroadcast.nextChannel();
+							break;
+
+						case vmDtvLib.keyCodes.CHANNELDOWN:
+							vmDtvLib.chanMan.videoBroadcast.prevChannel();
+						break;
+
+						case vmDtvLib.keyCodes.PLAY:
+							vmDtvLib.chanMan.videoBroadcast.setSpeed(1);
+							break;
+
+						case vmDtvLib.keyCodes.PAUSE:
+							vmDtvLib.chanMan.videoBroadcast.setSpeed(0);
+							break;
+					}
+
+				}
+			}
+		</script>
+
+
+		<style type="text/css">
+			body {
+				color: #fff;
+				background-color: black;
+				font-family: 'vdl_helveticaLight';
+				font-size: 2em;
+			}
+			#vidB {
+				position:fixed;
+
+				width:1280px;
+				height:720px;
+
+				top:0px;
+				left:0px;
+			}
+			#textArea {
+				position:absolute;
+				background-color: rgba(0, 0, 0, 0.700);
+
+				top:50px;
+				left:100px;
+			}
+		</style>
+
+	</head>
+
+
+	<body onload="doLoad()">
+
+		<object id="vidB" type="video/broadcast" ></object>
+
+		<div id="textArea">
+		<h2>Channel Manager Example (Monday 18th July 09:57)</h2>
+		<br/>
+		0 bind to current channel<br/>
+		1 tune to Sky Sports 1?<br/>
+		2 exit and tune to BBC4 vsid 125<br/>
+        3 tune to Sky Sports F1 HD and exit on tuner loss<br/>
+        <br/>
+        ch+: channel up<br/>
+        ch-: channel down<br/>
+        play: resume play live broadcast<br/>
+        pause: pause live broadcast<br/>
+        <br/>
+        <div id="chanDetails" style="font-color:red;"></div>
+		</div>
+
+	</body>
+</html>
